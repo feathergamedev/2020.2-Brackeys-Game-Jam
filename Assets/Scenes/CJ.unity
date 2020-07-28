@@ -216,6 +216,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Square
       objectReference: {fileID: 0}
+    - target: {fileID: 4186393503123000596, guid: 934dffb65bab74025b30bd5a2b358b5d,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186393503123000596, guid: 934dffb65bab74025b30bd5a2b358b5d,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4186393503123000596, guid: 934dffb65bab74025b30bd5a2b358b5d,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4360720218289529652, guid: 934dffb65bab74025b30bd5a2b358b5d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -244,12 +259,12 @@ PrefabInstance:
     - target: {fileID: 4360720218289529652, guid: 934dffb65bab74025b30bd5a2b358b5d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.38268343
       objectReference: {fileID: 0}
     - target: {fileID: 4360720218289529652, guid: 934dffb65bab74025b30bd5a2b358b5d,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.92387956
       objectReference: {fileID: 0}
     - target: {fileID: 4360720218289529652, guid: 934dffb65bab74025b30bd5a2b358b5d,
         type: 3}
@@ -269,7 +284,7 @@ PrefabInstance:
     - target: {fileID: 4360720218289529652, guid: 934dffb65bab74025b30bd5a2b358b5d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 934dffb65bab74025b30bd5a2b358b5d, type: 3}
