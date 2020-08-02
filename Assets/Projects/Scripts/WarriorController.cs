@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class WarriorController : MonoBehaviour
+public class WarriorController : Chess
 {
     [SerializeField]
     private ActionController m_actionController;
 
-    public Vector2Int Coordinate;
+    public int CurHP;
+
+    [SerializeField]
+    private Vector2Int m_initCoordinate;
 
     // Start is called before the first frame update
     void Start()
@@ -19,11 +22,10 @@ public class WarriorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
-            TakeAction();
+
     }
 
-    private void TakeAction()
+    public void TakeAction()
     {
         if (m_actionController.HasNextAction() == false)
             return;
@@ -36,5 +38,12 @@ public class WarriorController : MonoBehaviour
         transform.DOMove(targetPos, 0.2f).SetEase(Ease.Linear);
 
         Coordinate = nextCoordinate;
+    }
+
+    public void Reset()
+    {
+        var targetPos = BoardManager.instance.GetGridPos(m_initCoordinate);
+        transform.position = targetPos;
+        Coordinate = m_initCoordinate;
     }
 }

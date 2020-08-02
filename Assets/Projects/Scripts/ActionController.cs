@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ActionController : MonoBehaviour
 {
 
-    private List<Direction> m_ActionRecord;
+    private List<Direction> m_actionRecord;
     private int m_actionIndex;
 
     public Vector2Int CurCoordinate;
@@ -20,13 +20,16 @@ public class ActionController : MonoBehaviour
     [SerializeField]
     private List<Sprite> m_arrowSprites;
 
+    private List<Image> m_actionIcons;
+
     [SerializeField]
     private float m_arrowIconDistance;
 
     private void Awake()
     {
         CurCoordinate = Vector2Int.zero;
-        m_ActionRecord = new List<Direction>();
+        m_actionRecord = new List<Direction>();
+        m_actionIcons = new List<Image>();
     }
 
     // Start is called before the first frame update
@@ -50,23 +53,34 @@ public class ActionController : MonoBehaviour
             else
                 AddAction(Direction.Left);
         }
-        else if (Input.GetButtonDown("Vertical"))
+
+        if (Input.GetButtonDown("Vertical"))
         {
             if (Input.GetAxis("Vertical") > 0)
                 AddAction(Direction.Up);
             else
                 AddAction(Direction.Down);
         }
+
+        if (Input.GetKeyDown(KeyCode.Delete))
+        {
+            DeleteAction();
+        }
     }
 
     public bool HasNextAction()
     {
-        return (m_actionIndex < m_ActionRecord.Count);
+        return (m_actionIndex < m_actionRecord.Count);
     }
 
     public Direction GetNextAction()
     {
-        return m_ActionRecord[m_actionIndex++];
+        return m_actionRecord[m_actionIndex++];
+    }
+
+    public void ResetActionIndex()
+    {
+        m_actionIndex = 0;
     }
 
     public void AddAction(Direction dir)
@@ -80,16 +94,48 @@ public class ActionController : MonoBehaviour
         }
 
         CreateArrowIcon(dir);
-        m_ActionRecord.Add(dir);
+        m_actionRecord.Add(dir);
 
         CurCoordinate = nextCoordinate;
 
-        Debug.Log(string.Format("The {0}th action : {1}", m_ActionRecord.Count, dir.ToString()));
+        Debug.Log(string.Format("The {0}th action : {1}", m_actionRecord.Count, dir.ToString()));
     }
+
+    public void DeleteAction()
+    {
+        var lastIdx = m_actionRecord.Count - 1;
+
+        if (lastIdx < 0)
+            return;
+
+        CurCoordinate -= m_actionRecord[lastIdx].ToCoordinate();
+
+        Destroy(m_actionIcons[lastIdx]);
+        m_actionRecord.RemoveAt(lastIdx);
+        m_actionIcons.RemoveAt(lastIdx);
+
+        m_arrowParent.transform.localPosition += new Vector3(m_arrowIconDistance/2, 0, 0);
+    }
+
+    public void DeleteAllAction()
+    {
+        for (int i=0; i<m_actionRecord.Count; i++)
+        {
+            var icon = m_actionIcons[i];
+            Destroy(icon);
+        }
+
+        m_actionIcons.Clear();
+        m_actionRecord.Clear();
+        m_arrowParent.transform.localPosition = Vector3.zero;
+        CurCoordinate = Vector2Int.zero;
+        m_actionIndex = 0;
+    }
+
 
     private void CreateArrowIcon(Direction dir)
     {
-        var newPosX = m_arrowIconDistance * m_ActionRecord.Count;
+        var newPosX = m_arrowIconDistance * m_actionRecord.Count;
         var newArrowIcon = Instantiate(m_arrowPrefab);
 
         newArrowIcon.transform.parent = m_arrowParent;
@@ -99,5 +145,6 @@ public class ActionController : MonoBehaviour
         m_arrowParent.transform.localPosition = new Vector3(-newPosX / 2, 0, 0);
 
         newArrowIcon.sprite = m_arrowSprites[(int)dir];
+        m_actionIcons.Add(newArrowIcon);
     }
 }

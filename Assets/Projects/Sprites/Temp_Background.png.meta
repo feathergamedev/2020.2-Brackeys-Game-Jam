@@ -1,0 +1,1127 @@
+fileFormatVersion: 2
+guid: 220f435f195cc43fd92809926f002332
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3872038923344757736
+    second: Temp_Background_0
+  - first:
+      213: -7671917779916687145
+    second: Temp_Background_0
+  - first:
+      213: -5335489319367958220
+    second: Temp_Background_1
+  - first:
+      213: -7957479985474171108
+    second: Temp_Background_2
+  - first:
+      213: -7461763622470762886
+    second: Temp_Background_3
+  - first:
+      213: -50408690278980250
+    second: Temp_Background_4
+  - first:
+      213: 4510439499636946440
+    second: Temp_Background_5
+  - first:
+      213: -4485318238743328067
+    second: Temp_Background_6
+  - first:
+      213: 3413915768624097967
+    second: Temp_Background_7
+  - first:
+      213: 1824784055251959937
+    second: Temp_Background_8
+  - first:
+      213: -81177384334725021
+    second: Temp_Background_9
+  - first:
+      213: 5474355884007881125
+    second: Temp_Background_10
+  - first:
+      213: -8362604409185148357
+    second: Temp_Background_11
+  - first:
+      213: 7524302082877182698
+    second: Temp_Background_12
+  - first:
+      213: -6319520007015776388
+    second: Temp_Background_13
+  - first:
+      213: 604014570040704335
+    second: Temp_Background_14
+  - first:
+      213: -1997622381572594052
+    second: Temp_Background_15
+  - first:
+      213: 3939755139876542766
+    second: Temp_Background_16
+  - first:
+      213: -1465220276521722108
+    second: Temp_Background_17
+  - first:
+      213: -707865293134540061
+    second: Temp_Background_18
+  - first:
+      213: -3989784577136716952
+    second: Temp_Background_19
+  - first:
+      213: 1879292994065138101
+    second: Temp_Background_20
+  - first:
+      213: 3590469347998730666
+    second: Temp_Background_21
+  - first:
+      213: 4812865609619375928
+    second: Temp_Background_22
+  - first:
+      213: -5769701042894221461
+    second: Temp_Background_23
+  - first:
+      213: -2899576703719549972
+    second: Temp_Background_24
+  - first:
+      213: -453382492724420703
+    second: Temp_Background_25
+  - first:
+      213: 5985752183644432656
+    second: Temp_Background_26
+  - first:
+      213: 5914324970548744753
+    second: Temp_Background_27
+  - first:
+      213: -8456356904809019018
+    second: Temp_Background_28
+  - first:
+      213: -7397322986863441857
+    second: Temp_Background_29
+  - first:
+      213: -2536835842515491457
+    second: Temp_Background_30
+  - first:
+      213: 2362352667817386589
+    second: Temp_Background_31
+  - first:
+      213: 2701802074454608364
+    second: Temp_Background_32
+  - first:
+      213: -8235096656864982340
+    second: Temp_Background_33
+  - first:
+      213: 330383112466910839
+    second: Temp_Background_34
+  - first:
+      213: -1042880877809787035
+    second: Temp_Background_35
+  - first:
+      213: 7985772201436538698
+    second: Temp_Background_36
+  - first:
+      213: -753152542254754184
+    second: Temp_Background_37
+  - first:
+      213: -987111358829856335
+    second: Temp_Background_38
+  - first:
+      213: -7694224065542319476
+    second: Temp_Background_39
+  - first:
+      213: -6070993886101267795
+    second: Temp_Background_40
+  - first:
+      213: -3390865980731474951
+    second: Temp_Background_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Temp_Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8ff0e3d6fd78590800000000000000
+      internalID: -7671917779916687145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431ae209bb884f5b0800000000000000
+      internalID: -5335489319367958220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f088e1d1a519190800000000000000
+      internalID: -7957479985474171108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eb2bcf48d727890800000000000000
+      internalID: -7461763622470762886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66524523099ec4ff0800000000000000
+      internalID: -50408690278980250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80630ccd3dc489e30800000000000000
+      internalID: 4510439499636946440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba8f1b73d2f0c1c0800000000000000
+      internalID: -4485318238743328067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaa1f9cd4aa06f20800000000000000
+      internalID: 3413915768624097967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180071d1e6fe25910800000000000000
+      internalID: 1824784055251959937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_9
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360feea59999fdef0800000000000000
+      internalID: -81177384334725021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9fb501ca1d8fb40800000000000000
+      internalID: 5474355884007881125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b326769c89f02fb80800000000000000
+      internalID: -8362604409185148357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae250a001e0bb6860800000000000000
+      internalID: 7524302082877182698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fb9de290e8c48a0800000000000000
+      internalID: -6319520007015776388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dbf6e1d04e16800800000000000000
+      internalID: 604014570040704335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76eefe17050744e0800000000000000
+      internalID: -1997622381572594052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e295c5e0d62dca630800000000000000
+      internalID: 3939755139876542766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_17
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f193cebed7aabe0800000000000000
+      internalID: -1465220276521722108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e253ed24482d26f0800000000000000
+      internalID: -707865293134540061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8631f6dd01071a8c0800000000000000
+      internalID: -3989784577136716952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1022c6507941a10800000000000000
+      internalID: 1879292994065138101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9846059d8e3d130800000000000000
+      internalID: 3590469347998730666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8378e05b5cbbac240800000000000000
+      internalID: 4812865609619375928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fc61e7877edefa0800000000000000
+      internalID: -5769701042894221461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce35ccfb952a2c7d0800000000000000
+      internalID: -2899576703719549972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af97c5660345b9f0800000000000000
+      internalID: -453382492724420703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01925aba5e9a11350800000000000000
+      internalID: 5985752183644432656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132d7cba937e31250800000000000000
+      internalID: 5914324970548744753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679cfe2e23cf4aa80800000000000000
+      internalID: -8456356904809019018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f384c27afed675990800000000000000
+      internalID: -7397322986863441857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75a261fd395bccd0800000000000000
+      internalID: -2536835842515491457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a37f2c33c8c020800000000000000
+      internalID: 2362352667817386589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9c7450caabe7520800000000000000
+      internalID: 2701802074454608364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_33
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba4e84d83f07bd80800000000000000
+      internalID: -8235096656864982340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ec06ab0b1c59400800000000000000
+      internalID: 330383112466910839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f9917fd51f681f0800000000000000
+      internalID: -1042880877809787035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4760dbb18923de60800000000000000
+      internalID: 7985772201436538698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8761931d0c34c85f0800000000000000
+      internalID: -753152542254754184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b97137f2731d42f0800000000000000
+      internalID: -987111358829856335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_39
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8296176aff983590800000000000000
+      internalID: -7694224065542319476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa9d51e93f7fbba0800000000000000
+      internalID: -6070993886101267795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temp_Background_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb3b892b5931f0d0800000000000000
+      internalID: -3390865980731474951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
