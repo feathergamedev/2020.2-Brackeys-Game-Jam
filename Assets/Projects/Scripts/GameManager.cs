@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private WarriorController m_warriorController;
 
+    [SerializeField]
+    private PuzzleManager m_puzzleManager;
 
     [SerializeField]
     private float m_actionCallCooldown;
@@ -29,6 +31,9 @@ public class GameManager : MonoBehaviour
     private GameObject m_startButton, m_stopButton, m_restartButton;
 
     private Coroutine m_rewindCoroutine;
+
+    [SerializeField]
+    private GameObject m_levelCompletePage;
 
     private void Awake()
     {
@@ -50,6 +55,11 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void LevelComplete()
+    {
+        m_levelCompletePage.SetActive(true);
+    }
+
     public void StartRewind()
     {
         m_rewindCoroutine = StartCoroutine(Rewind());
@@ -59,6 +69,8 @@ public class GameManager : MonoBehaviour
         m_restartButton.SetActive(false);
 
         CurGameState = GameState.Rewind;
+
+        m_puzzleManager.FadeOutAllFinalChess();
     }
 
     private IEnumerator Rewind()
@@ -68,6 +80,8 @@ public class GameManager : MonoBehaviour
             m_warriorController.TakeAction();
             yield return new WaitForSeconds(m_actionCallCooldown);
         }
+
+        PuzzleManager.instance.CheckFinalAnswer();
     }
 
     public void StopRewind()
@@ -86,6 +100,8 @@ public class GameManager : MonoBehaviour
         m_restartButton.SetActive(true);
 
         CurGameState = GameState.Edit;
+
+        m_puzzleManager.FadeInAllFinalChess();
     }
 
     public void ResetLevel()
@@ -96,7 +112,11 @@ public class GameManager : MonoBehaviour
             m_rewindCoroutine = null;
         }
 
+        m_startButton.SetActive(true);
+        m_stopButton.SetActive(false);
+
         m_actionController.DeleteAllAction();
+        m_puzzleManager.FadeInAllFinalChess();
         m_warriorController.Reset();
 
         CurGameState = GameState.Edit;

@@ -163,7 +163,7 @@ TextureImporter:
     second: Button_52
   - first:
       213: -8486880690075151666
-    second: Button_53
+    second: Button_Next
   - first:
       213: 7315432663026557618
     second: Button_54
@@ -1620,7 +1620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_53
+      name: Button_Next
       rect:
         serializedVersion: 2
         x: 362

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class WarriorController : Chess
 {
@@ -12,6 +13,9 @@ public class WarriorController : Chess
 
     [SerializeField]
     private Vector2Int m_initCoordinate;
+
+    [SerializeField]
+    private Sprite m_placeholderSprite, m_normalSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +42,8 @@ public class WarriorController : Chess
         transform.DOMove(targetPos, 0.2f).SetEase(Ease.Linear);
 
         Coordinate = nextCoordinate;
+
+        GetComponent<Image>().sprite = m_normalSprite;
     }
 
     public void Reset()
@@ -45,5 +51,8 @@ public class WarriorController : Chess
         var targetPos = BoardManager.instance.GetGridPos(m_initCoordinate);
         transform.position = targetPos;
         Coordinate = m_initCoordinate;
+
+        GetComponent<Image>().sprite = m_placeholderSprite;
+
     }
 }

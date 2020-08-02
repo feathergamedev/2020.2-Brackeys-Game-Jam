@@ -10,10 +10,17 @@ public class BoardManager : MonoBehaviour
 
     public List<Grid> LevelInfo;
 
+    private List<Chess> m_allChess;
+
+    [SerializeField]
+    private Transform m_chessParent;
+
     private void Awake()
     {
         if (instance == null)
             instance = this;
+
+        RegisterAllChess();
     }
 
     // Start is called before the first frame update
@@ -36,6 +43,11 @@ public class BoardManager : MonoBehaviour
         
     }
 
+    public List<Chess> GetCurChess()
+    {
+        return m_allChess;
+    }
+
     public bool HasGridAt(Vector2Int coordinate)
     {
         if (coordinate.y < 0 || coordinate.y >= m_grids.GetLength(1))
@@ -52,5 +64,16 @@ public class BoardManager : MonoBehaviour
         Debug.Assert(HasGridAt(coordinate) == true);
 
         return m_grids[coordinate.x, coordinate.y].transform.position;
+    }
+
+    private void RegisterAllChess()
+    {
+        m_allChess = new List<Chess>();
+
+        for (int i=0; i<m_chessParent.childCount; i++)
+        {
+            var chess = m_chessParent.GetChild(i).GetComponent<Chess>();
+            m_allChess.Add(chess);
+        }
     }
 }

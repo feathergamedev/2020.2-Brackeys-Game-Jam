@@ -62,7 +62,8 @@ public class ActionController : MonoBehaviour
                 AddAction(Direction.Down);
         }
 
-        if (Input.GetKeyDown(KeyCode.Delete))
+        // Mac 的 delete 還要搭配 fn 才能用，所以多加一個 k 的按鈕
+        if (Input.GetKeyDown(KeyCode.Backspace))
         {
             DeleteAction();
         }
@@ -97,8 +98,6 @@ public class ActionController : MonoBehaviour
         m_actionRecord.Add(dir);
 
         CurCoordinate = nextCoordinate;
-
-        Debug.Log(string.Format("The {0}th action : {1}", m_actionRecord.Count, dir.ToString()));
     }
 
     public void DeleteAction()
