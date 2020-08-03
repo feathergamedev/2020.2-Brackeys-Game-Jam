@@ -32,8 +32,6 @@ public class BoardManager : MonoBehaviour
         {
             var grid = LevelInfo[i];
             m_grids[grid.Coordinate.x, grid.Coordinate.y] = grid;
-
-            Debug.Log(string.Format("[{0},{1}]", grid.Coordinate.x, grid.Coordinate.y));
         }
     }
 

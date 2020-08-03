@@ -52,7 +52,16 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (CurGameState == GameState.Edit)
+                StartRewind();
+            else if (CurGameState == GameState.Rewind)
+                StopRewind();
+        }
+
+        if (CurGameState == GameState.Edit && Input.GetKeyDown(KeyCode.R))
+            ResetLevel();
     }
 
     public void LevelComplete()
@@ -80,6 +89,8 @@ public class GameManager : MonoBehaviour
             m_warriorController.TakeAction();
             yield return new WaitForSeconds(m_actionCallCooldown);
         }
+
+        yield return new WaitForSeconds(m_actionCallCooldown * 2);
 
         PuzzleManager.instance.CheckFinalAnswer();
     }

@@ -17,6 +17,8 @@ public class WarriorController : Chess
     [SerializeField]
     private Sprite m_placeholderSprite, m_normalSprite;
 
+    private Tween m_moveTween;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +41,7 @@ public class WarriorController : Chess
 
         var targetPos = BoardManager.instance.GetGridPos(nextCoordinate);
 
-        transform.DOMove(targetPos, 0.2f).SetEase(Ease.Linear);
+        m_moveTween = transform.DOMove(targetPos, 0.45f).SetEase(Ease.Linear);
 
         Coordinate = nextCoordinate;
 
@@ -48,11 +50,12 @@ public class WarriorController : Chess
 
     public void Reset()
     {
+        m_moveTween.Kill();
+
         var targetPos = BoardManager.instance.GetGridPos(m_initCoordinate);
         transform.position = targetPos;
         Coordinate = m_initCoordinate;
 
         GetComponent<Image>().sprite = m_placeholderSprite;
-
     }
 }

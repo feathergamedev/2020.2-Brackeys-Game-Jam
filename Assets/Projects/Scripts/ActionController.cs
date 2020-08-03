@@ -9,7 +9,22 @@ public class ActionController : MonoBehaviour
     private List<Direction> m_actionRecord;
     private int m_actionIndex;
 
+    [Header("移動路線標記")]
+
     public Vector2Int CurCoordinate;
+
+    private List<Image> m_allFootprints;
+
+    [SerializeField]
+    private Transform m_footprintParent;
+
+    [SerializeField]
+    private Image m_footprintPrefab;
+
+    [SerializeField]
+    private GameObject m_curPosIndicator;
+
+    [Header("步驟記錄")]
 
     [SerializeField]
     private Image m_arrowPrefab;
@@ -30,6 +45,7 @@ public class ActionController : MonoBehaviour
         CurCoordinate = Vector2Int.zero;
         m_actionRecord = new List<Direction>();
         m_actionIcons = new List<Image>();
+        m_allFootprints = new List<Image>();        
     }
 
     // Start is called before the first frame update
@@ -97,7 +113,16 @@ public class ActionController : MonoBehaviour
         CreateArrowIcon(dir);
         m_actionRecord.Add(dir);
 
+        //如果不是起點，就畫腳印
+        //TODO:把[0,0]改成動態吃每一關不同的起始座標
+        if (CurCoordinate != Vector2Int.zero)
+        {
+            DrawFootprint(CurCoordinate, dir);
+        }
+
         CurCoordinate = nextCoordinate;
+
+        UpdateCurPosIndicator(CurCoordinate);
     }
 
     public void DeleteAction()
@@ -131,6 +156,38 @@ public class ActionController : MonoBehaviour
         m_actionIndex = 0;
     }
 
+    private void UpdateCurPosIndicator(Vector2Int pos)
+    {
+        m_curPosIndicator.transform.position = BoardManager.instance.GetGridPos(pos);
+    }
+
+    private void DrawFootprint(Vector2Int pos, Direction dir)
+    {
+        var newFootprint = Instantiate(m_footprintPrefab, m_footprintParent);
+        newFootprint.transform.localScale = Vector3.one;
+
+        newFootprint.transform.position = BoardManager.instance.GetGridPos(pos);
+
+        float rotateZ = 0f;
+
+        switch(dir)
+        {
+            case Direction.Left:
+                rotateZ = 90f;
+                break;
+            case Direction.Right:
+                rotateZ = -90f;
+                break;
+            case Direction.Up:
+                rotateZ = 0f;
+                break;
+            case Direction.Down:
+                rotateZ = -180f;
+                break;
+        }
+
+        newFootprint.transform.rotation = Quaternion.Euler(new Vector3(0, 0, rotateZ));
+    }
 
     private void CreateArrowIcon(Direction dir)
     {

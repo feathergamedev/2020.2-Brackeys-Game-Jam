@@ -1,136 +1,154 @@
 fileFormatVersion: 2
-guid: 220f435f195cc43fd92809926f002332
+guid: c41bc41b29ac3479c8dd7e3af42390b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3872038923344757736
-    second: Temp_Background_0
+      213: 1741707738683386629
+    second: InGameAssets_0
   - first:
-      213: -7671917779916687145
-    second: Temp_Background_0
+      213: 1117497326884635585
+    second: InGameAssets_1
   - first:
-      213: -5335489319367958220
-    second: Temp_Background_1
+      213: 4911412055409318903
+    second: InGameAssets_2
   - first:
-      213: -7957479985474171108
-    second: Temp_Background_2
+      213: 6818315855009077739
+    second: InGameAssets_3
   - first:
-      213: -7461763622470762886
-    second: Temp_Background_3
+      213: -1577200143012527044
+    second: InGameAssets_4
   - first:
-      213: -50408690278980250
-    second: Temp_Background_4
+      213: -1749818169452945596
+    second: InGameAssets_5
   - first:
-      213: 4510439499636946440
-    second: Temp_Background_5
+      213: -6915497409041778913
+    second: InGameAssets_6
   - first:
-      213: -4485318238743328067
-    second: Temp_Background_6
+      213: 4497969848594235780
+    second: InGameAssets_7
   - first:
-      213: 3413915768624097967
-    second: Temp_Background_7
+      213: -2587145729951517009
+    second: InGameAssets_8
   - first:
-      213: 1824784055251959937
-    second: Temp_Background_8
+      213: 4513974510881795111
+    second: InGameAssets_9
   - first:
-      213: -81177384334725021
-    second: Temp_Background_9
+      213: 5925911085004491955
+    second: InGameAssets_10
   - first:
-      213: 5474355884007881125
-    second: Temp_Background_10
+      213: -4679586642875942097
+    second: InGameAssets_11
   - first:
-      213: -8362604409185148357
-    second: Temp_Background_11
+      213: -1843255619021210587
+    second: InGameAssets_12
   - first:
-      213: 7524302082877182698
-    second: Temp_Background_12
+      213: 4115633003733644200
+    second: InGameAssets_13
   - first:
-      213: -6319520007015776388
-    second: Temp_Background_13
+      213: 301969766587544709
+    second: InGameAssets_14
   - first:
-      213: 604014570040704335
-    second: Temp_Background_14
+      213: 1895479821406382834
+    second: InGameAssets_15
   - first:
-      213: -1997622381572594052
-    second: Temp_Background_15
+      213: -9153791683470606776
+    second: InGameAssets_16
   - first:
-      213: 3939755139876542766
-    second: Temp_Background_16
+      213: 2781991207614565825
+    second: InGameAssets_17
   - first:
-      213: -1465220276521722108
-    second: Temp_Background_17
+      213: -8416103034475698696
+    second: InGameAssets_18
   - first:
-      213: -707865293134540061
-    second: Temp_Background_18
+      213: 5403280936530541032
+    second: InGameAssets_19
   - first:
-      213: -3989784577136716952
-    second: Temp_Background_19
+      213: 4907441979581144462
+    second: InGameAssets_20
   - first:
-      213: 1879292994065138101
-    second: Temp_Background_20
+      213: -4757216238304060686
+    second: InGameAssets_21
   - first:
-      213: 3590469347998730666
-    second: Temp_Background_21
+      213: 6093741934803071722
+    second: InGameAssets_22
   - first:
-      213: 4812865609619375928
-    second: Temp_Background_22
+      213: 748859891012607080
+    second: InGameAssets_23
   - first:
-      213: -5769701042894221461
-    second: Temp_Background_23
+      213: -2373662188958511601
+    second: InGameAssets_24
   - first:
-      213: -2899576703719549972
-    second: Temp_Background_24
+      213: -3868119793068700525
+    second: InGameAssets_25
   - first:
-      213: -453382492724420703
-    second: Temp_Background_25
+      213: 2921542697194564399
+    second: InGameAssets_26
   - first:
-      213: 5985752183644432656
-    second: Temp_Background_26
+      213: -4981806245918915719
+    second: InGameAssets_27
   - first:
-      213: 5914324970548744753
-    second: Temp_Background_27
+      213: -8851760107624922102
+    second: InGameAssets_28
   - first:
-      213: -8456356904809019018
-    second: Temp_Background_28
+      213: 6650529572152360608
+    second: InGameAssets_29
   - first:
-      213: -7397322986863441857
-    second: Temp_Background_29
+      213: -5450061591944923103
+    second: NormalGrid
   - first:
-      213: -2536835842515491457
-    second: Temp_Background_30
+      213: -5185964535885888203
+    second: InGameAssets_31
   - first:
-      213: 2362352667817386589
-    second: Temp_Background_31
+      213: -4284097179647958196
+    second: FinishPoint
   - first:
-      213: 2701802074454608364
-    second: Temp_Background_32
+      213: 7274998907908215726
+    second: InGameAssets_33
   - first:
-      213: -8235096656864982340
-    second: Temp_Background_33
+      213: 298210278128227987
+    second: InGameAssets_34
   - first:
-      213: 330383112466910839
-    second: Temp_Background_34
+      213: -7691252778432542029
+    second: InGameAssets_35
   - first:
-      213: -1042880877809787035
-    second: Temp_Background_35
+      213: 7375654853469440749
+    second: InGameAssets_36
   - first:
-      213: 7985772201436538698
-    second: Temp_Background_36
+      213: 1309486246380187655
+    second: InGameAssets_37
   - first:
-      213: -753152542254754184
-    second: Temp_Background_37
+      213: 2400440310051848597
+    second: Obstacle
   - first:
-      213: -987111358829856335
-    second: Temp_Background_38
+      213: -6450371326138488099
+    second: InGameAssets_39
   - first:
-      213: -7694224065542319476
-    second: Temp_Background_39
+      213: 695791195666552058
+    second: InGameAssets_40
   - first:
-      213: -6070993886101267795
-    second: Temp_Background_40
+      213: 6134758437950641214
+    second: InGameAssets_41
   - first:
-      213: -3390865980731474951
-    second: Temp_Background_41
+      213: -4558189471363692239
+    second: InGameAssets_42
+  - first:
+      213: 7391355651514896366
+    second: InGameAssets_43
+  - first:
+      213: -7957349668611097131
+    second: FootPrint
+  - first:
+      213: 4922564393344012407
+    second: InGameAssets_45
+  - first:
+      213: -3350997765614008776
+    second: InGameAssets_46
+  - first:
+      213: -5125985167668173694
+    second: InGameAssets_47
+  - first:
+      213: -6902284031003641971
+    second: InGameAssets_48
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -228,10 +246,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Temp_Background_0
+      name: InGameAssets_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 1121
         width: 160
         height: 160
@@ -242,17 +260,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8ff0e3d6fd78590800000000000000
-      internalID: -7671917779916687145
+      spriteID: 50ba5cad5f9cb2810800000000000000
+      internalID: 1741707738683386629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_1
+      name: InGameAssets_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 1121
         width: 160
         height: 160
@@ -263,17 +281,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 431ae209bb884f5b0800000000000000
-      internalID: -5335489319367958220
+      spriteID: 1c34866e5e5228f00800000000000000
+      internalID: 1117497326884635585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_2
+      name: InGameAssets_2
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
         y: 1121
         width: 160
         height: 160
@@ -284,17 +302,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1f088e1d1a519190800000000000000
-      internalID: -7957479985474171108
+      spriteID: 7fb5e3c1e37d82440800000000000000
+      internalID: 4911412055409318903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_3
+      name: InGameAssets_3
       rect:
         serializedVersion: 2
-        x: 480
+        x: 490
         y: 1121
         width: 160
         height: 160
@@ -305,17 +323,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7eb2bcf48d727890800000000000000
-      internalID: -7461763622470762886
+      spriteID: be9da3825268f9e50800000000000000
+      internalID: 6818315855009077739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_4
+      name: InGameAssets_4
       rect:
         serializedVersion: 2
-        x: 640
+        x: 650
         y: 1121
         width: 160
         height: 160
@@ -326,17 +344,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66524523099ec4ff0800000000000000
-      internalID: -50408690278980250
+      spriteID: c340b0883d8ac1ae0800000000000000
+      internalID: -1577200143012527044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_5
+      name: InGameAssets_5
       rect:
         serializedVersion: 2
-        x: 800
+        x: 810
         y: 1121
         width: 160
         height: 160
@@ -347,17 +365,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80630ccd3dc489e30800000000000000
-      internalID: 4510439499636946440
+      spriteID: 44f9b3455a567b7e0800000000000000
+      internalID: -1749818169452945596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_6
+      name: InGameAssets_6
       rect:
         serializedVersion: 2
-        x: 0
+        x: 970
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f173ee01fb73700a0800000000000000
+      internalID: -6915497409041778913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_7
+      rect:
+        serializedVersion: 2
+        x: 10
         y: 961
         width: 160
         height: 160
@@ -368,17 +407,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dba8f1b73d2f0c1c0800000000000000
-      internalID: -4485318238743328067
+      spriteID: 48180ebfebffb6e30800000000000000
+      internalID: 4497969848594235780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_7
+      name: InGameAssets_8
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 961
         width: 160
         height: 160
@@ -389,17 +428,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faaa1f9cd4aa06f20800000000000000
-      internalID: 3413915768624097967
+      spriteID: fa632187aac981cd0800000000000000
+      internalID: -2587145729951517009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_8
+      name: InGameAssets_9
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
         y: 961
         width: 160
         height: 160
@@ -410,17 +449,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 180071d1e6fe25910800000000000000
-      internalID: 1824784055251959937
+      spriteID: 72ce64ec6ebd4ae30800000000000000
+      internalID: 4513974510881795111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_9
+      name: InGameAssets_10
       rect:
         serializedVersion: 2
-        x: 480
+        x: 490
         y: 961
         width: 160
         height: 160
@@ -431,17 +470,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360feea59999fdef0800000000000000
-      internalID: -81177384334725021
+      spriteID: 3bc0e382cb01d3250800000000000000
+      internalID: 5925911085004491955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_10
+      name: InGameAssets_11
       rect:
         serializedVersion: 2
-        x: 640
+        x: 650
         y: 961
         width: 160
         height: 160
@@ -452,17 +491,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a9fb501ca1d8fb40800000000000000
-      internalID: 5474355884007881125
+      spriteID: f2b77b7edb4ce0fb0800000000000000
+      internalID: -4679586642875942097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_11
+      name: InGameAssets_12
       rect:
         serializedVersion: 2
-        x: 800
+        x: 810
         y: 961
         width: 160
         height: 160
@@ -473,17 +512,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b326769c89f02fb80800000000000000
-      internalID: -8362604409185148357
+      spriteID: 52c7ffdc7c07b66e0800000000000000
+      internalID: -1843255619021210587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_12
+      name: InGameAssets_13
       rect:
         serializedVersion: 2
-        x: 0
+        x: 970
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3fa6d496aad1930800000000000000
+      internalID: 4115633003733644200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_14
+      rect:
+        serializedVersion: 2
+        x: 10
         y: 801
         width: 160
         height: 160
@@ -494,17 +554,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae250a001e0bb6860800000000000000
-      internalID: 7524302082877182698
+      spriteID: 584bb5e17efc03400800000000000000
+      internalID: 301969766587544709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_13
+      name: InGameAssets_15
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 801
         width: 160
         height: 160
@@ -515,17 +575,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7fb9de290e8c48a0800000000000000
-      internalID: -6319520007015776388
+      spriteID: 2fa29d9dad81e4a10800000000000000
+      internalID: 1895479821406382834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_14
+      name: InGameAssets_16
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
         y: 801
         width: 160
         height: 160
@@ -536,17 +596,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4dbf6e1d04e16800800000000000000
-      internalID: 604014570040704335
+      spriteID: 84e3fc676f237f080800000000000000
+      internalID: -9153791683470606776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_15
+      name: InGameAssets_17
       rect:
         serializedVersion: 2
-        x: 480
+        x: 490
         y: 801
         width: 160
         height: 160
@@ -557,17 +617,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c76eefe17050744e0800000000000000
-      internalID: -1997622381572594052
+      spriteID: 1cd4022834e9b9620800000000000000
+      internalID: 2781991207614565825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_16
+      name: InGameAssets_18
       rect:
         serializedVersion: 2
-        x: 640
+        x: 650
         y: 801
         width: 160
         height: 160
@@ -578,17 +638,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e295c5e0d62dca630800000000000000
-      internalID: 3939755139876542766
+      spriteID: 8f52dfc61eef33b80800000000000000
+      internalID: -8416103034475698696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_17
+      name: InGameAssets_19
       rect:
         serializedVersion: 2
-        x: 800
+        x: 810
         y: 801
         width: 160
         height: 160
@@ -599,17 +659,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40f193cebed7aabe0800000000000000
-      internalID: -1465220276521722108
+      spriteID: 8e9fa8b426f4cfa40800000000000000
+      internalID: 5403280936530541032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_18
+      name: InGameAssets_20
       rect:
         serializedVersion: 2
-        x: 0
+        x: 970
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d16ccca7cba1440800000000000000
+      internalID: 4907441979581144462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_21
+      rect:
+        serializedVersion: 2
+        x: 10
         y: 641
         width: 160
         height: 160
@@ -620,17 +701,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e253ed24482d26f0800000000000000
-      internalID: -707865293134540061
+      spriteID: 2fa9a2c3909fafdb0800000000000000
+      internalID: -4757216238304060686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_19
+      name: InGameAssets_22
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 641
         width: 160
         height: 160
@@ -641,17 +722,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8631f6dd01071a8c0800000000000000
-      internalID: -3989784577136716952
+      spriteID: ae2b6d0f002519450800000000000000
+      internalID: 6093741934803071722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_20
+      name: InGameAssets_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
         y: 641
         width: 160
         height: 160
@@ -662,17 +743,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b1022c6507941a10800000000000000
-      internalID: 1879292994065138101
+      spriteID: 86c185e6a1c746a00800000000000000
+      internalID: 748859891012607080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_21
+      name: InGameAssets_24
       rect:
         serializedVersion: 2
-        x: 480
+        x: 490
         y: 641
         width: 160
         height: 160
@@ -683,17 +764,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa9846059d8e3d130800000000000000
-      internalID: 3590469347998730666
+      spriteID: f0e0a5ab0de0f0fd0800000000000000
+      internalID: -2373662188958511601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_22
+      name: InGameAssets_25
       rect:
         serializedVersion: 2
-        x: 640
+        x: 650
         y: 641
         width: 160
         height: 160
@@ -704,17 +785,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8378e05b5cbbac240800000000000000
-      internalID: 4812865609619375928
+      spriteID: 39c8b79da8da15ac0800000000000000
+      internalID: -3868119793068700525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_23
+      name: InGameAssets_26
       rect:
         serializedVersion: 2
-        x: 800
+        x: 810
         y: 641
         width: 160
         height: 160
@@ -725,17 +806,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6fc61e7877edefa0800000000000000
-      internalID: -5769701042894221461
+      spriteID: f2b2b66aa976b8820800000000000000
+      internalID: 2921542697194564399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_24
+      name: InGameAssets_27
       rect:
         serializedVersion: 2
-        x: 0
+        x: 970
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9734e243d911ddab0800000000000000
+      internalID: -4981806245918915719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_28
+      rect:
+        serializedVersion: 2
+        x: 10
         y: 481
         width: 160
         height: 160
@@ -746,17 +848,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce35ccfb952a2c7d0800000000000000
-      internalID: -2899576703719549972
+      spriteID: a040b0ca41b382580800000000000000
+      internalID: -8851760107624922102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_25
+      name: InGameAssets_29
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 481
         width: 160
         height: 160
@@ -767,17 +869,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1af97c5660345b9f0800000000000000
-      internalID: -453382492724420703
+      spriteID: 0ae3f5ce86d6b4c50800000000000000
+      internalID: 6650529572152360608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_26
+      name: NormalGrid
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
+        y: 483
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1287f189bdd7d54b0800000000000000
+      internalID: -5450061591944923103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_31
+      rect:
+        serializedVersion: 2
+        x: 490
         y: 481
         width: 160
         height: 160
@@ -788,17 +911,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01925aba5e9a11350800000000000000
-      internalID: 5985752183644432656
+      spriteID: 5358fb42bb0c708b0800000000000000
+      internalID: -5185964535885888203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_27
+      name: FinishPoint
       rect:
         serializedVersion: 2
-        x: 480
+        x: 650
         y: 481
         width: 160
         height: 160
@@ -809,17 +932,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 132d7cba937e31250800000000000000
-      internalID: 5914324970548744753
+      spriteID: c43a4df2054db84c0800000000000000
+      internalID: -4284097179647958196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_28
+      name: InGameAssets_33
       rect:
         serializedVersion: 2
-        x: 640
+        x: 810
         y: 481
         width: 160
         height: 160
@@ -830,17 +953,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 679cfe2e23cf4aa80800000000000000
-      internalID: -8456356904809019018
+      spriteID: ea3593f46fcf5f460800000000000000
+      internalID: 7274998907908215726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_29
+      name: InGameAssets_34
       rect:
         serializedVersion: 2
-        x: 800
+        x: 970
         y: 481
         width: 160
         height: 160
@@ -851,17 +974,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f384c27afed675990800000000000000
-      internalID: -7397322986863441857
+      spriteID: 39614300ba4732400800000000000000
+      internalID: 298210278128227987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_30
+      name: InGameAssets_35
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 321
         width: 160
         height: 160
@@ -872,17 +995,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f75a261fd395bccd0800000000000000
-      internalID: -2536835842515491457
+      spriteID: 3bacac7195e234590800000000000000
+      internalID: -7691252778432542029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_31
+      name: InGameAssets_36
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 321
         width: 160
         height: 160
@@ -893,17 +1016,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d52a37f2c33c8c020800000000000000
-      internalID: 2362352667817386589
+      spriteID: dea8ee6e2079b5660800000000000000
+      internalID: 7375654853469440749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_32
+      name: InGameAssets_37
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
         y: 321
         width: 160
         height: 160
@@ -914,17 +1037,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce9c7450caabe7520800000000000000
-      internalID: 2701802074454608364
+      spriteID: 70030c99dca3c2210800000000000000
+      internalID: 1309486246380187655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_33
+      name: Obstacle
       rect:
         serializedVersion: 2
-        x: 480
+        x: 490
         y: 321
         width: 160
         height: 160
@@ -935,17 +1058,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cba4e84d83f07bd80800000000000000
-      internalID: -8235096656864982340
+      spriteID: 5914b217eb3105120800000000000000
+      internalID: 2400440310051848597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_34
+      name: InGameAssets_39
       rect:
         serializedVersion: 2
-        x: 0
+        x: 650
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda6624547dab76a0800000000000000
+      internalID: -6450371326138488099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_40
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af49c8fe762f7a900800000000000000
+      internalID: 695791195666552058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_41
+      rect:
+        serializedVersion: 2
+        x: 10
         y: 161
         width: 160
         height: 160
@@ -956,17 +1121,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77ec06ab0b1c59400800000000000000
-      internalID: 330383112466910839
+      spriteID: e34d0e4cb4a032550800000000000000
+      internalID: 6134758437950641214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_35
+      name: InGameAssets_42
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 161
         width: 160
         height: 160
@@ -977,17 +1142,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56f9917fd51f681f0800000000000000
-      internalID: -1042880877809787035
+      spriteID: 139017c73de0eb0c0800000000000000
+      internalID: -4558189471363692239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_36
+      name: InGameAssets_43
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
+        y: 159
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef0f11ddce539660800000000000000
+      internalID: 7391355651514896366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrint
+      rect:
+        serializedVersion: 2
+        x: 490
         y: 161
         width: 160
         height: 160
@@ -998,38 +1184,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4760dbb18923de60800000000000000
-      internalID: 7985772201436538698
+      spriteID: 5ddfcd0e2a0d19190800000000000000
+      internalID: -7957349668611097131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_37
+      name: InGameAssets_45
       rect:
         serializedVersion: 2
-        x: 480
-        y: 161
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8761931d0c34c85f0800000000000000
-      internalID: -753152542254754184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Temp_Background_38
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 10
         y: 1
         width: 160
         height: 160
@@ -1040,17 +1205,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b97137f2731d42f0800000000000000
-      internalID: -987111358829856335
+      spriteID: 77091412c36705440800000000000000
+      internalID: 4922564393344012407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_39
+      name: InGameAssets_46
       rect:
         serializedVersion: 2
-        x: 160
+        x: 170
         y: 1
         width: 160
         height: 160
@@ -1061,17 +1226,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8296176aff983590800000000000000
-      internalID: -7694224065542319476
+      spriteID: 8360379594dde71d0800000000000000
+      internalID: -3350997765614008776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_40
+      name: InGameAssets_47
       rect:
         serializedVersion: 2
-        x: 320
+        x: 330
         y: 1
         width: 160
         height: 160
@@ -1082,17 +1247,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daa9d51e93f7fbba0800000000000000
-      internalID: -6070993886101267795
+      spriteID: 284a73d06a7dcd8b0800000000000000
+      internalID: -5125985167668173694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temp_Background_41
+      name: InGameAssets_48
       rect:
         serializedVersion: 2
-        x: 480
+        x: 490
         y: 1
         width: 160
         height: 160
@@ -1103,8 +1268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fb3b892b5931f0d0800000000000000
-      internalID: -3390865980731474951
+      spriteID: d873d216e392630a0800000000000000
+      internalID: -6902284031003641971
       vertices: []
       indices: 
       edges: []
