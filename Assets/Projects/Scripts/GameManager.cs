@@ -126,7 +126,7 @@ public class GameManager : MonoBehaviour
         m_startButton.SetActive(true);
         m_stopButton.SetActive(false);
 
-        m_actionController.DeleteAllAction();
+        m_actionController.Reset();
         m_puzzleManager.FadeInAllFinalChess();
         m_warriorController.Reset();
 

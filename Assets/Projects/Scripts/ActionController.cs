@@ -134,6 +134,9 @@ public class ActionController : MonoBehaviour
 
         CurCoordinate -= m_actionRecord[lastIdx].ToCoordinate();
 
+        EraseFootprint();
+        UpdateCurPosIndicator(CurCoordinate);
+
         Destroy(m_actionIcons[lastIdx]);
         m_actionRecord.RemoveAt(lastIdx);
         m_actionIcons.RemoveAt(lastIdx);
@@ -187,6 +190,32 @@ public class ActionController : MonoBehaviour
         }
 
         newFootprint.transform.rotation = Quaternion.Euler(new Vector3(0, 0, rotateZ));
+
+        m_allFootprints.Add(newFootprint);
+    }
+
+    private void EraseFootprint()
+    {
+        var lastIdx = m_allFootprints.Count - 1;
+
+        if (lastIdx < 0)
+            return;
+
+        Destroy(m_allFootprints[lastIdx]);
+        m_allFootprints.RemoveAt(lastIdx);
+    }
+
+    private void EraseAllFootprint()
+    {
+        var count = m_allFootprints.Count;
+
+        for (int i=0; i<count; i++)
+        {
+            var footprint = m_allFootprints[i];
+            Destroy(footprint);
+        }
+
+        m_allFootprints.Clear();
     }
 
     private void CreateArrowIcon(Direction dir)
@@ -202,5 +231,12 @@ public class ActionController : MonoBehaviour
 
         newArrowIcon.sprite = m_arrowSprites[(int)dir];
         m_actionIcons.Add(newArrowIcon);
+    }
+
+    public void Reset()
+    {
+        DeleteAllAction();
+        UpdateCurPosIndicator(Vector2Int.zero);
+        EraseAllFootprint();
     }
 }
