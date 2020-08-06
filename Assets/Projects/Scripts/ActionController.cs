@@ -32,9 +32,6 @@ public class ActionController : MonoBehaviour
     [SerializeField]
     private Transform m_arrowParent;
 
-    [SerializeField]
-    private List<Sprite> m_arrowSprites;
-
     private List<Image> m_actionIcons;
 
     [SerializeField]
@@ -62,6 +59,9 @@ public class ActionController : MonoBehaviour
 
     public void PlayerInput()
     {
+        if (GameManager.instance.CurGameState != GameState.Edit)
+            return;
+
         if (Input.GetButtonDown("Horizontal"))
         {
             if (Input.GetAxis("Horizontal") > 0)
@@ -78,11 +78,8 @@ public class ActionController : MonoBehaviour
                 AddAction(Direction.Down);
         }
 
-        // Mac 的 delete 還要搭配 fn 才能用，所以多加一個 k 的按鈕
         if (Input.GetKeyDown(KeyCode.Backspace))
-        {
             DeleteAction();
-        }
     }
 
     public bool HasNextAction()
@@ -104,25 +101,24 @@ public class ActionController : MonoBehaviour
     {
         var nextCoordinate = CurCoordinate + dir.ToCoordinate();
 
-        if (BoardManager.instance.HasGridAt(nextCoordinate) == false)
-        {
-            Debug.Log(string.Format("Don't have grid at [{0},{1}]", nextCoordinate.x, nextCoordinate.y));
+        if (BoardManager.instance.IsWalkable(nextCoordinate) == false)
             return;
-        }
 
         CreateArrowIcon(dir);
         m_actionRecord.Add(dir);
 
         //如果不是起點，就畫腳印
         //TODO:把[0,0]改成動態吃每一關不同的起始座標
-        if (CurCoordinate != Vector2Int.zero)
-        {
+//        if (CurCoordinate != Vector2Int.zero)
+//        {
             DrawFootprint(CurCoordinate, dir);
-        }
+//        }
 
         CurCoordinate = nextCoordinate;
 
         UpdateCurPosIndicator(CurCoordinate);
+
+        SoundManager.instance.PlaySound(SoundType.InsertAction);
     }
 
     public void DeleteAction()
@@ -142,6 +138,8 @@ public class ActionController : MonoBehaviour
         m_actionIcons.RemoveAt(lastIdx);
 
         m_arrowParent.transform.localPosition += new Vector3(m_arrowIconDistance/2, 0, 0);
+
+        SoundManager.instance.PlaySound(SoundType.InsertAction);
     }
 
     public void DeleteAllAction()
@@ -154,7 +152,7 @@ public class ActionController : MonoBehaviour
 
         m_actionIcons.Clear();
         m_actionRecord.Clear();
-        m_arrowParent.transform.localPosition = Vector3.zero;
+        m_arrowParent.transform.localPosition = new Vector3(0, 37, 0);
         CurCoordinate = Vector2Int.zero;
         m_actionIndex = 0;
     }
@@ -162,6 +160,11 @@ public class ActionController : MonoBehaviour
     private void UpdateCurPosIndicator(Vector2Int pos)
     {
         m_curPosIndicator.transform.position = BoardManager.instance.GetGridPos(pos);
+    }
+
+    public void SetCurPosIndicatorActive(bool isActive)
+    {
+        m_curPosIndicator.SetActive(isActive);
     }
 
     private void DrawFootprint(Vector2Int pos, Direction dir)
@@ -205,7 +208,7 @@ public class ActionController : MonoBehaviour
         m_allFootprints.RemoveAt(lastIdx);
     }
 
-    private void EraseAllFootprint()
+    private void EraseAllFootprint()    
     {
         var count = m_allFootprints.Count;
 
@@ -221,22 +224,38 @@ public class ActionController : MonoBehaviour
     private void CreateArrowIcon(Direction dir)
     {
         var newPosX = m_arrowIconDistance * m_actionRecord.Count;
-        var newArrowIcon = Instantiate(m_arrowPrefab);
+        var newArrowIcon = Instantiate<Image>(m_arrowPrefab);
 
-        newArrowIcon.transform.parent = m_arrowParent;
-        newArrowIcon.transform.localScale = Vector3.one;
+        newArrowIcon.transform.SetParent(m_arrowParent);
+        newArrowIcon.transform.localScale = new Vector3(0.5f, 0.5f, 0f);
         newArrowIcon.transform.localPosition = new Vector3(newPosX, 0, 0);
 
-        m_arrowParent.transform.localPosition = new Vector3(-newPosX / 2, 0, 0);
+        switch (dir)
+        {
+            case Direction.Left:
+                newArrowIcon.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 180));
+                break;
+            case Direction.Right:
+                break;
+            case Direction.Up:
+                newArrowIcon.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90));
+                break;
+            case Direction.Down:
+                newArrowIcon.transform.rotation = Quaternion.Euler(new Vector3(0, 0, -90));
+                break;
+        }
 
-        newArrowIcon.sprite = m_arrowSprites[(int)dir];
+        var initY = m_arrowParent.transform.localPosition.y;
+        m_arrowParent.transform.localPosition = new Vector3(-newPosX / 2, initY, 0);
+
         m_actionIcons.Add(newArrowIcon);
     }
 
-    public void Reset()
+    public void Reset(Vector2Int pos)
     {
         DeleteAllAction();
-        UpdateCurPosIndicator(Vector2Int.zero);
+        UpdateCurPosIndicator(pos);
+        SetCurPosIndicatorActive(true);
         EraseAllFootprint();
     }
 }

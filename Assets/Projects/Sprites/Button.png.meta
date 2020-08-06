@@ -64,7 +64,7 @@ TextureImporter:
     second: Button_19
   - first:
       213: 6751135681320707386
-    second: Button_20
+    second: Button_Peek
   - first:
       213: 8236786002934464123
     second: Button_21
@@ -927,7 +927,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_20
+      name: Button_Peek
       rect:
         serializedVersion: 2
         x: 1385

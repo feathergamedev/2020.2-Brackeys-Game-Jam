@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public enum GameState
 {
@@ -15,14 +16,17 @@ public class GameManager : MonoBehaviour
 
     public GameState CurGameState;
 
+    public StageInfo CurStage;
+
+    public int CurStageID;
+
+    public List<StageInfo> AllStages;
+
     [SerializeField]
     private ActionController m_actionController;
 
     [SerializeField]
-    private WarriorController m_warriorController;
-
-    [SerializeField]
-    private PuzzleManager m_puzzleManager;
+    private WarriorController m_warrior;
 
     [SerializeField]
     private float m_actionCallCooldown;
@@ -35,23 +39,31 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject m_levelCompletePage;
 
+    [SerializeField]
+    private Transform m_stageParent;
+
     private void Awake()
     {
         if (instance == null)
             instance = this;
 
-        CurGameState = GameState.Edit;
+
     }
 
     // Start is called before the first frame update
-    void Start()
+    IEnumerator Start()
     {
-
+        yield return new WaitForSeconds(0.2f);
+        LoadStage(CurStageID);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.N))
+            GoNextStage();
+
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (CurGameState == GameState.Edit)
@@ -71,28 +83,38 @@ public class GameManager : MonoBehaviour
 
     public void StartRewind()
     {
-        m_rewindCoroutine = StartCoroutine(Rewind());
+        StartCoroutine(StartRewindTransition());
+    }
 
+    private IEnumerator StartRewindTransition()
+    {
         m_startButton.SetActive(false);
         m_stopButton.SetActive(true);
         m_restartButton.SetActive(false);
 
         CurGameState = GameState.Rewind;
 
-        m_puzzleManager.FadeOutAllFinalChess();
+        m_actionController.SetCurPosIndicatorActive(false);
+
+        m_warrior.EnterRewindMode();
+
+        ShowStageRewindLayout();
+
+        yield return new WaitForSeconds(0.5f);
+
+        m_warrior.ReadyToTakeAction();
+        //m_rewindCoroutine = StartCoroutine(Rewind());
     }
+
 
     private IEnumerator Rewind()
     {
-        while (m_actionController.HasNextAction())
-        {
-            m_warriorController.TakeAction();
-            yield return new WaitForSeconds(m_actionCallCooldown);
-        }
+        yield return m_warrior.StartCoroutine("TakeAction");
+
 
         yield return new WaitForSeconds(m_actionCallCooldown * 2);
 
-        PuzzleManager.instance.CheckFinalAnswer();
+        CheckFinalAnswer();
     }
 
     public void StopRewind()
@@ -103,19 +125,28 @@ public class GameManager : MonoBehaviour
             m_rewindCoroutine = null;
         }
 
-        m_warriorController.Reset();
+        m_warrior.Reset(CurStage.WarriorInitPos);
+
         m_actionController.ResetActionIndex();
+        m_actionController.SetCurPosIndicatorActive(true);
 
         m_startButton.SetActive(true);
         m_stopButton.SetActive(false);
         m_restartButton.SetActive(true);
 
-        CurGameState = GameState.Edit;
+        BoardManager.instance.ResetAllChess();
 
-        m_puzzleManager.FadeInAllFinalChess();
+        ResumeStageFinalState();
+
+        CurGameState = GameState.Edit;
     }
 
     public void ResetLevel()
+    {
+        LoadStage(CurStageID);
+    }
+
+    public void LoadStage(int stageID)
     {
         if (m_rewindCoroutine != null)
         {
@@ -123,13 +154,68 @@ public class GameManager : MonoBehaviour
             m_rewindCoroutine = null;
         }
 
+        if (CurStage != null)
+            Destroy(CurStage.gameObject);
+
+        CurStageID = stageID;
+        CurStage = Instantiate<StageInfo>(AllStages[CurStageID], Vector3.zero, Quaternion.identity, m_stageParent);
+
+        BoardManager.instance.BoardSetup(CurStage.m_gridParent, CurStage.m_chessParent);
+
         m_startButton.SetActive(true);
         m_stopButton.SetActive(false);
 
-        m_actionController.Reset();
-        m_puzzleManager.FadeInAllFinalChess();
-        m_warriorController.Reset();
+        m_warrior.Reset(CurStage.WarriorInitPos);
+        m_actionController.Reset(CurStage.WarriorInitPos);
+
 
         CurGameState = GameState.Edit;
+    }
+
+    public void PeekStageInitState()
+    {
+        CurStage.PeekInitState();
+    }
+
+    public void ResumeStageFinalState()
+    {
+        CurStage.ResumeFinalState();
+    }
+
+    public void ShowStageRewindLayout()
+    {
+        CurStage.ShowRewindLayout();
+    }
+
+    public void CheckFinalAnswer()
+    {
+        var result = (m_warrior.Coordinate == CurStage.WarriorTargetPos);
+
+        if (result)
+        {
+            m_levelCompletePage.SetActive(true);
+            SoundManager.instance.PlaySound(SoundType.StageComplete);
+            Debug.Log("Win!");
+        }
+        else
+        {
+            Debug.Log("Not win...");
+        }
+    }
+
+    public void GoNextStage()
+    {
+        StartCoroutine(EnterNextStagePerform());
+    }
+
+    private IEnumerator EnterNextStagePerform()
+    {
+        var nextStageID = (CurStageID + 1) % AllStages.Count;
+
+        Destroy(m_stageParent.transform.GetChild(0).gameObject);
+
+        LoadStage(nextStageID);
+
+        yield return null;
     }
 }

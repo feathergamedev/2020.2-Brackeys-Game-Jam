@@ -16,9 +16,15 @@ public class LevelCompletePageController : MonoBehaviour
         
     }
 
-    public void ReplayLevel()
+    public void ReplayCurStage()
     {
         GameManager.instance.ResetLevel();
+        gameObject.SetActive(false);
+    }
+
+    public void NextStage()
+    {
+        GameManager.instance.GoNextStage();
         gameObject.SetActive(false);
     }
 }

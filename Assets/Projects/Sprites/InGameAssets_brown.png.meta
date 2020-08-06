@@ -1,0 +1,1700 @@
+fileFormatVersion: 2
+guid: eacb32a3b66194dccacbc3ed881bb854
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3989265279494027743
+    second: InGameAssets_brown_0
+  - first:
+      213: 4980229660676610955
+    second: InGameAssets_brown_1
+  - first:
+      213: 3062144912337891871
+    second: InGameAssets_brown_2
+  - first:
+      213: -684690061772421781
+    second: InGameAssets_brown_3
+  - first:
+      213: -6043867574504063588
+    second: InGameAssets_brown_4
+  - first:
+      213: 5135615417576200348
+    second: InGameAssets_brown_5
+  - first:
+      213: 4278455006124660305
+    second: InGameAssets_brown_6
+  - first:
+      213: 7676331857462745812
+    second: InGameAssets_brown_7
+  - first:
+      213: 3654110274968521973
+    second: InGameAssets_brown_8
+  - first:
+      213: 6214326018603120998
+    second: InGameAssets_brown_9
+  - first:
+      213: 6096230473670132562
+    second: InGameAssets_brown_10
+  - first:
+      213: 4803777724354976780
+    second: InGameAssets_brown_11
+  - first:
+      213: 7803689410329999306
+    second: InGameAssets_brown_12
+  - first:
+      213: -4459865996133264937
+    second: InGameAssets_brown_13
+  - first:
+      213: -5870103315423790310
+    second: InGameAssets_brown_14
+  - first:
+      213: -4684626879719631915
+    second: InGameAssets_brown_15
+  - first:
+      213: -7632932388315389996
+    second: InGameAssets_brown_16
+  - first:
+      213: -5097984426142708328
+    second: InGameAssets_brown_17
+  - first:
+      213: 569935916346994336
+    second: InGameAssets_brown_18
+  - first:
+      213: -4164346379244088605
+    second: InGameAssets_brown_19
+  - first:
+      213: -7817547916699605699
+    second: InGameAssets_brown_20
+  - first:
+      213: -1321575211394343326
+    second: InGameAssets_brown_21
+  - first:
+      213: -8072662905197927577
+    second: InGameAssets_brown_22
+  - first:
+      213: -7305653657678855392
+    second: InGameAssets_brown_23
+  - first:
+      213: -4892359422758738434
+    second: InGameAssets_brown_24
+  - first:
+      213: -3394487928405132356
+    second: InGameAssets_brown_25
+  - first:
+      213: -5516982239297255325
+    second: InGameAssets_brown_26
+  - first:
+      213: 3715222704245142672
+    second: InGameAssets_brown_27
+  - first:
+      213: -5976836454207651583
+    second: InGameAssets_brown_28
+  - first:
+      213: -1726783054991943074
+    second: InGameAssets_brown_29
+  - first:
+      213: -3775671071118462736
+    second: InGameAssets_brown_30
+  - first:
+      213: -7249600887797291183
+    second: InGameAssets_brown_31
+  - first:
+      213: -7480054445056677140
+    second: InGameAssets_brown_32
+  - first:
+      213: 2048164711119507256
+    second: InGameAssets_brown_33
+  - first:
+      213: 1332745324372948815
+    second: InGameAssets_brown_34
+  - first:
+      213: -4120777535662185785
+    second: InGameAssets_brown_35
+  - first:
+      213: -4940086219824820375
+    second: FinishPoint
+  - first:
+      213: -3511865100077544539
+    second: InGameAssets_brown_37
+  - first:
+      213: -8863908441580340679
+    second: InGameAssets_brown_38
+  - first:
+      213: 7230129750269592000
+    second: Spikes
+  - first:
+      213: 8634126994335956636
+    second: InGameAssets_brown_40
+  - first:
+      213: -5135101620641166046
+    second: InGameAssets_brown_41
+  - first:
+      213: -6385385144946893294
+    second: NormalGrid
+  - first:
+      213: -3398335637463299349
+    second: Stone
+  - first:
+      213: 6737146245928372835
+    second: InGameAssets_brown_44
+  - first:
+      213: -871088540441858791
+    second: InGameAssets_brown_45
+  - first:
+      213: -4920785548193463530
+    second: InGameAssets_brown_46
+  - first:
+      213: 2349856500779719365
+    second: InGameAssets_brown_47
+  - first:
+      213: 640877997328457377
+    second: InGameAssets_brown_48
+  - first:
+      213: -236194708024261702
+    second: InGameAssets_brown_49
+  - first:
+      213: -5502507086671938304
+    second: InGameAssets_brown_50
+  - first:
+      213: -562794585063002625
+    second: InGameAssets_brown_51
+  - first:
+      213: 6444177194946592744
+    second: Footprint
+  - first:
+      213: 2585981552022146632
+    second: TreasureBox
+  - first:
+      213: -8788567503539623876
+    second: InGameAssets_brown_54
+  - first:
+      213: 976575101696273640
+    second: InGameAssets_brown_55
+  - first:
+      213: -4690348034976115423
+    second: InGameAssets_brown_56
+  - first:
+      213: -289495132817645596
+    second: InGameAssets_brown_57
+  - first:
+      213: -8317206252841176539
+    second: InGameAssets_brown_58
+  - first:
+      213: -4049970318319636103
+    second: InGameAssets_brown_59
+  - first:
+      213: 8226137351655467621
+    second: InGameAssets_brown_60
+  - first:
+      213: 8519727321948997771
+    second: InGameAssets_brown_61
+  - first:
+      213: -7826749737287856320
+    second: InGameAssets_brown_62
+  - first:
+      213: -8155673901582247282
+    second: InGameAssets_brown_63
+  - first:
+      213: -6936505074643541103
+    second: InGameAssets_brown_64
+  - first:
+      213: -1273272940158926689
+    second: InGameAssets_brown_65
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InGameAssets_brown_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12685f44d5843a8c0800000000000000
+      internalID: -3989265279494027743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b5e707d745d1540800000000000000
+      internalID: 4980229660676610955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f127ba6e29cee7a20800000000000000
+      internalID: 3062144912337891871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_3
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6580d6340e7f76f0800000000000000
+      internalID: -684690061772421781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_4
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dfe28767edf1ca0800000000000000
+      internalID: -6043867574504063588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9816ab330f554740800000000000000
+      internalID: 5135615417576200348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_6
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1565d8be820206b30800000000000000
+      internalID: 4278455006124660305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_7
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1121
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dad416472fc78a60800000000000000
+      internalID: 7676331857462745812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc8a9d4fe106b230800000000000000
+      internalID: 3654110274968521973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6697e49c698bd3650800000000000000
+      internalID: 6214326018603120998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253050c01592a9450800000000000000
+      internalID: 6096230473670132562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_11
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cdc1883627aa240800000000000000
+      internalID: 4803777724354976780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_12
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac772384c264c4c60800000000000000
+      internalID: 7803689410329999306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d112a2818f5b12c0800000000000000
+      internalID: -4459865996133264937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_14
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b7251c224398ea0800000000000000
+      internalID: -5870103315423790310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_15
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 961
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d390115cacdcfeb0800000000000000
+      internalID: -4684626879719631915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df13ef0f60621690800000000000000
+      internalID: -7632932388315389996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d4a49bc225049b0800000000000000
+      internalID: -5097984426142708328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_18
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae699e32b1d8e700800000000000000
+      internalID: 569935916346994336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_19
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d87f18054536c0800000000000000
+      internalID: -4164346379244088605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_20
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d356682c69d728390800000000000000
+      internalID: -7817547916699605699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_21
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ed0e4e852d8ade0800000000000000
+      internalID: -1321575211394343326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_22
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7636438cbd328ff80800000000000000
+      internalID: -8072662905197927577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_23
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 801
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023c40294ba1d9a90800000000000000
+      internalID: -7305653657678855392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef52eec9609da1cb0800000000000000
+      internalID: -4892359422758738434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb7f01c63b54e0d0800000000000000
+      internalID: -3394487928405132356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3684c8232edbf63b0800000000000000
+      internalID: -5516982239297255325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_27
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0947ffb8d5f1f8330800000000000000
+      internalID: 3715222704245142672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_28
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101095a59e20e0da0800000000000000
+      internalID: -5976836454207651583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_29
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a9a0bd5fb3908e0800000000000000
+      internalID: -1726783054991943074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_30
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0f3494a2f1a9bc0800000000000000
+      internalID: -3775671071118462736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_31
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 641
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1576c7f076e346b90800000000000000
+      internalID: -7249600887797291183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaa0ddfc12813890800000000000000
+      internalID: -7480054445056677140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_33
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fc4cff3fa8c6c10800000000000000
+      internalID: 2048164711119507256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_34
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47ff43bfccde7210800000000000000
+      internalID: 1332745324372948815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_35
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c222740aae00d6c0800000000000000
+      internalID: -4120777535662185785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishPoint
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f0a8bb1c9417bb0800000000000000
+      internalID: -4940086219824820375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_37
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab49c25c49534fc0800000000000000
+      internalID: -3511865100077544539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_38
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 481
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a74024c321df480800000000000000
+      internalID: -8863908441580340679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spikes
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 495
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c18dc473b4965460800000000000000
+      internalID: 7230129750269592000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e710b71c492d770800000000000000
+      internalID: 8634126994335956636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d862078447cb8b0800000000000000
+      internalID: -5135101620641166046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NormalGrid
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e5269ba0e8267a0800000000000000
+      internalID: -6385385144946893294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stone
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea037d2ebfa6d0d0800000000000000
+      internalID: -3398335637463299349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_44
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aca64d0d62f7d50800000000000000
+      internalID: 6737146245928372835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_45
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dac03769549e3f0800000000000000
+      internalID: -871088540441858791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_46
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6138d088d9bd5bbb0800000000000000
+      internalID: -4920785548193463530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_47
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca1e12990e5c9020800000000000000
+      internalID: 2349856500779719365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_48
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 321
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae502f942bd4e800800000000000000
+      internalID: 640877997328457377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3036a1a2ed8bcf0800000000000000
+      internalID: -236194708024261702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d79dc45fa23a3b0800000000000000
+      internalID: -5502507086671938304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_51
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd6ec38e4d8038f0800000000000000
+      internalID: -562794585063002625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Footprint
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff67e14015e6950800000000000000
+      internalID: 6444177194946592744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreasureBox
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e4efb358043e320800000000000000
+      internalID: 2585981552022146632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_54
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 180
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4608864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38aafa5b6cb80680800000000000000
+      internalID: -8788567503539623876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_55
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ece81181ed7d8d00800000000000000
+      internalID: 976575101696273640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_56
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1251c4e005988eeb0800000000000000
+      internalID: -4690348034976115423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_57
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 161
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef1334e5b18bfbf0800000000000000
+      internalID: -289495132817645596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_58
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5227ebfbaf8539c80800000000000000
+      internalID: -8317206252841176539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_59
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971bea1047d9bc7c0800000000000000
+      internalID: -4049970318319636103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_60
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a2ffe565c192270800000000000000
+      internalID: 8226137351655467621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_61
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88c5ff1cd62c3670800000000000000
+      internalID: 8519727321948997771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_62
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f4313f49cc16390800000000000000
+      internalID: -7826749737287856320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_63
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a14401cc931de80800000000000000
+      internalID: -8155673901582247282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_64
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1936d23c2659cbf90800000000000000
+      internalID: -6936505074643541103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InGameAssets_brown_65
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90c5bbc10d645ee0800000000000000
+      internalID: -1273272940158926689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
