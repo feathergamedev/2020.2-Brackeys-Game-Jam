@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Scorpion : Chess
 {
@@ -14,28 +15,38 @@ public class Scorpion : Chess
     [SerializeField]
     private List<int> m_attackAtWhichCycle;
 
-    private bool done;
+    private int m_lastAttackCycle;
+
+    [SerializeField]
+    private Sprite m_normalSprite, m_attackSprite;
+
+    private Animator m_animator;
+
+
+
+    private void Awake()
+    {
+        m_animator = GetComponent<Animator>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        m_lastAttackCycle = -1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (m_attackAtWhichCycle.Contains(GameManager.instance.CurCycle))
+        if (m_attackAtWhichCycle.Contains(GameManager.instance.CurCycle) && m_lastAttackCycle != GameManager.instance.CurCycle)
         {
             Attack();
+            m_lastAttackCycle = GameManager.instance.CurCycle;
         }
     }
 
     public void Attack()
     {
-        if (done)
-            return;
-
         var projectile = Instantiate<ScorpionProjectile>(m_projectilePrefab, transform.position, transform.rotation, GameManager.instance.CurStage.transform);
 
         var bornPos = Coordinate;
@@ -44,13 +55,14 @@ public class Scorpion : Chess
 
         projectile.Move();
 
-        GameManager.instance.AddToProjectileList(projectile);
+        m_animator.SetTrigger("Attack");
 
-        done = true;
+        GameManager.instance.AddToProjectileList(projectile);
+        SoundManager.instance.PlaySound(SoundType.ScorpionAttack);
     }
 
     public override void Reset()
     {
-        done = false;
+        m_lastAttackCycle = -1;
     }
 }

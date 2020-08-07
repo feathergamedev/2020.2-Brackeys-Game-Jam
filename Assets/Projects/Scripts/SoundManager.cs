@@ -7,8 +7,11 @@ public enum SoundType
     InsertAction = 0,
     Walk,
     OpenTreasure,
-    KillBySpike,
+    Killed,
     StageComplete,
+    WrongAnswer,
+    ScorpionAttack,
+    ClickButton,
 }
 
 public class SoundManager : MonoBehaviour

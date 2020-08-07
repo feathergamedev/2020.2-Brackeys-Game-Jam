@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 8e26c256a652047a6bb1c9b981826d30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4257581015298399329
+    second: Stylized_Button_0
+  - first:
+      213: 5570958179683905848
+    second: Stylized_Button_1
+  - first:
+      213: -2462824645189675792
+    second: Stylized_Button_2
+  - first:
+      213: 8091092437874335130
+    second: Stylized_Button_3
+  - first:
+      213: -3015738024271581882
+    second: Inspect
+  - first:
+      213: 1126571718169295671
+    second: Stylized_Button_5
+  - first:
+      213: -7884359349141248897
+    second: Stylized_Button_6
+  - first:
+      213: -4130662063982298986
+    second: Eye_Open
+  - first:
+      213: 144635695426379616
+    second: Eye_NearlyOpen
+  - first:
+      213: 4816769022737925847
+    second: Eye_Half
+  - first:
+      213: -5994299584242513391
+    second: Eye_Closed
+  - first:
+      213: 7753570625016878392
+    second: Stylized_Button_11
+  - first:
+      213: -1056710676209055581
+    second: Stylized_Button_12
+  - first:
+      213: -7081553397287654517
+    second: Stylized_Button_13
+  - first:
+      213: -3346479224791058139
+    second: Stylized_Button_14
+  - first:
+      213: -3241193164526104500
+    second: Stylized_Button_15
+  - first:
+      213: 4604290435343839225
+    second: Stylized_Button_16
+  - first:
+      213: 7455984941806221847
+    second: Stylized_Button_17
+  - first:
+      213: 6030999764549791229
+    second: Stylized_Button_18
+  - first:
+      213: -7074999599933913018
+    second: Stylized_Button_19
+  - first:
+      213: 3806158211475485461
+    second: Stylized_Button_20
+  - first:
+      213: 6023605010276553862
+    second: Stylized_Button_21
+  - first:
+      213: 3012494544565956802
+    second: Stylized_Button_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stylized_Button_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 499
+        width: 158
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cde433067f51b30800000000000000
+      internalID: 4257581015298399329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 521
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831bd9eb2f4005d40800000000000000
+      internalID: 5570958179683905848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 523
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f45467a80a42ddd0800000000000000
+      internalID: -2462824645189675792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 523
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d595c24b5594070800000000000000
+      internalID: 8091092437874335130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inspect
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 514
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d67a7be32f526d0800000000000000
+      internalID: -3015738024271581882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 511
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b7b73420362af00800000000000000
+      internalID: 1126571718169295671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_6
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 520
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74e7e0f1f0259290800000000000000
+      internalID: -7884359349141248897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Open
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 158
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698372decb0fca6c0800000000000000
+      internalID: -4130662063982298986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_NearlyOpen
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 375
+        width: 159
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f1bbf0669d10200800000000000000
+      internalID: 144635695426379616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Half
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 376
+        width: 159
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d64665e7e998d240800000000000000
+      internalID: 4816769022737925847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye_Closed
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 374
+        width: 158
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a04fb8948ffcca0800000000000000
+      internalID: -5994299584242513391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 158
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835d80d37673a9b60800000000000000
+      internalID: 7753570625016878392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 159
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8423a1d3fc551f0800000000000000
+      internalID: -1056710676209055581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 274
+        width: 159
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b65b074b449bd90800000000000000
+      internalID: -7081553397287654517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_14
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 253
+        width: 158
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529ba1e10eaee81d0800000000000000
+      internalID: -3346479224791058139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 158
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c405ffb4df7f403d0800000000000000
+      internalID: -3241193164526104500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127
+        width: 159
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffe561a1c9b5ef30800000000000000
+      internalID: 4604290435343839225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 127
+        width: 159
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a75031dcaf87760800000000000000
+      internalID: 7455984941806221847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_18
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 127
+        width: 158
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd647e055a62b350800000000000000
+      internalID: 6030999764549791229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 158
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64888eb495d80dd90800000000000000
+      internalID: -7074999599933913018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 40
+        width: 159
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513bee93ab032d430800000000000000
+      internalID: 3806158211475485461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 26
+        width: 159
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6841cc8a7d4289350800000000000000
+      internalID: 6023605010276553862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stylized_Button_22
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 5
+        width: 158
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0f7a0d3d78ec920800000000000000
+      internalID: 3012494544565956802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

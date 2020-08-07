@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5738060078042492674}
   - component: {fileID: 6542528635556947912}
   - component: {fileID: 4021009037796550473}
+  - component: {fileID: 5377154043203546653}
   m_Layer: 5
   m_Name: Scorpion
   m_TagString: Untagged
@@ -89,7 +90,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Type: 1
   Coordinate: {x: 5, y: 2}
-  m_attackCoolDown: 0
   m_projectilePrefab: {fileID: 2489638548862822398, guid: 8a636ae53fbbf4e9ea0704f5a1cb4151,
     type: 3}
   m_attackDirection: 0
+  m_attackAtWhichCycle: 
+  m_normalSprite: {fileID: 0}
+  m_attackSprite: {fileID: 0}
+--- !u!95 &5377154043203546653
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5027617456524522719}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b6d777c63c5e04035b3007f0f66e6ea6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

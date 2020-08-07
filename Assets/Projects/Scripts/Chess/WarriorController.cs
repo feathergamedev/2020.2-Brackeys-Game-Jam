@@ -135,7 +135,6 @@ public class WarriorController : Chess
         {
             case ChessType.Spike:
                 chess.GetComponent<Spike>().Activate();
-                SoundManager.instance.PlaySound(SoundType.KillBySpike);
                 Die();
                 break;
         }
@@ -146,6 +145,7 @@ public class WarriorController : Chess
         m_image.sprite = m_deadSprite;
         m_image.SetNativeSize();
         CurState = WarriorState.Dead;
+        SoundManager.instance.PlaySound(SoundType.Killed);
     }
 
     public void EnterRewindMode()
