@@ -11,14 +11,14 @@ public class StageInfo : MonoBehaviour
 
     public Vector2Int WarriorTargetPos;
 
-    public int BestSteps;
-
     public Transform m_gridParent, m_chessParent;
 
     [SerializeField]
     private CanvasGroup m_initGroup, m_finalGroup;
 
     public bool HaveTreasureBox, HaveScorpion;
+
+    public bool FaceToRight = true;
 
     // Start is called before the first frame update
     void Start()

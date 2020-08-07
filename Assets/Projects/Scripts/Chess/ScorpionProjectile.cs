@@ -16,6 +16,8 @@ public class ScorpionProjectile : MonoBehaviour
 
     private Vector2Int m_moveVector;
 
+    private int m_bornCycle;
+
     private Coroutine m_moveCoroutine;
 
     // Start is called before the first frame update
@@ -30,9 +32,11 @@ public class ScorpionProjectile : MonoBehaviour
         
     }
 
-    public void Setup(Vector2Int coordinate, Direction dir)
+    public void Setup(Vector2Int coordinate, Direction dir, int bornCycle)
     {
         m_coordinate = coordinate;
+        m_bornCycle = bornCycle;
+
 
         Quaternion newRotation = Quaternion.Euler(1, 0, 0);
 
@@ -61,34 +65,50 @@ public class ScorpionProjectile : MonoBehaviour
 
     public void Move()
     {
+        if (GameManager.instance.CurCycle == m_bornCycle)
+            return;
+
         m_moveCoroutine = StartCoroutine(MoveSequence());
     }
 
     private IEnumerator MoveSequence()
     {
-        Vector3 nextPos = transform.localPosition + new Vector3(-320f, 0f, 0f);
-        var lastCoordinate = m_coordinate;
 
-        transform.DOLocalMove(nextPos, 0.45f).SetEase(Ease.Linear);
+        Vector3 nextPos = transform.localPosition + new Vector3(m_moveVector.x * 160f, m_moveVector.y * 160f, 0f);
 
-        yield return new WaitForSeconds(0.225f);
+        transform.DOLocalMove(nextPos, WarriorController.instance.ActionCallCooldown).SetEase(Ease.Linear);
 
-        if (WarriorController.instance.Coordinate == m_coordinate - new Vector2Int(1, 0))
+        yield return new WaitForSeconds(WarriorController.instance.ActionCallCooldown + 0.02f);
+
+        m_coordinate += m_moveVector;
+
+        if (WarriorController.instance.Coordinate == m_coordinate)
         {
             WarriorController.instance.Die();
             StopCoroutine(m_moveCoroutine);
             Destroy(this.gameObject);
         }
 
-        yield return new WaitForSeconds(0.225f);
 
-        if (WarriorController.instance.Coordinate == m_coordinate - new Vector2Int(2, 0))
-        {
-            WarriorController.instance.Die();
-            Destroy(this.gameObject);
-        }
 
-        m_coordinate -= new Vector2Int(2, 0);
+        //yield return new WaitForSeconds(0.225f);
+
+        //if (WarriorController.instance.Coordinate == m_coordinate - new Vector2Int(1, 0))
+        //{
+        //    WarriorController.instance.Die();
+        //    StopCoroutine(m_moveCoroutine);
+        //    Destroy(this.gameObject);
+        //}
+
+        //yield return new WaitForSeconds(0.225f);
+
+        //if (WarriorController.instance.Coordinate == m_coordinate - new Vector2Int(2, 0))
+        //{
+        //    WarriorController.instance.Die();
+        //    Destroy(this.gameObject);
+        //}
+
+        //m_coordinate -= new Vector2Int(2, 0);
 
         if (BoardManager.instance.HasChessAt(m_coordinate))
         {

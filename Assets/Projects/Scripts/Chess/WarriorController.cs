@@ -30,6 +30,8 @@ public class WarriorController : Chess
 
     private Coroutine m_actionCoroutine;
 
+    public float ActionCallCooldown;
+
     private void Awake()
     {
         instance = this;
@@ -64,8 +66,6 @@ public class WarriorController : Chess
         {
             if (GetAdjacentInteractable() != null)
             {
-                Debug.Log("Yes!");
-
                 var chess = GetAdjacentInteractable();
 
                 switch (chess.Type)
@@ -76,7 +76,7 @@ public class WarriorController : Chess
                         break;
                 }
 
-                yield return new WaitForSeconds(0.45f);
+                yield return new WaitForSeconds(0.3f);
             }
             else
             {
@@ -88,11 +88,18 @@ public class WarriorController : Chess
 
                 var targetPos = BoardManager.instance.GetGridPos(nextCoordinate);
 
-                m_moveTween = transform.DOMove(targetPos, 0.45f).SetEase(Ease.Linear);
+                m_moveTween = transform.DOMove(targetPos, ActionCallCooldown).SetEase(Ease.Linear);
+
+                if (nextDirecion == Direction.Left)
+                    transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+                else if (nextDirecion == Direction.Right)
+                    transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
 
                 SoundManager.instance.PlaySound(SoundType.Walk);
 
-                yield return new WaitForSeconds(0.45f);
+                GameManager.instance.CallMonsterToMove();
+
+                yield return new WaitForSeconds(ActionCallCooldown);
 
                 Coordinate = nextCoordinate;
 
@@ -102,9 +109,7 @@ public class WarriorController : Chess
                     OverlapProcess(encounteredChess);
                 }
 
-
-
-                yield return null;
+                yield return new WaitForSeconds(0.04f);
             }
 
             GameManager.instance.ReadyToEnterNextCycle();
@@ -174,6 +179,8 @@ public class WarriorController : Chess
 
         m_image.sprite = m_ghostSprite;
         m_image.SetNativeSize();
+
+        transform.rotation = (GameManager.instance.CurStage.FaceToRight) ? Quaternion.Euler(new Vector3(0, 180, 0)) : Quaternion.Euler(new Vector3(0, 0, 0));
 
         CurState = WarriorState.Move;
     }

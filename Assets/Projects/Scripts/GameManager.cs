@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.SceneManagement;
 
 public enum GameState
 {
@@ -29,9 +30,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private WarriorController m_warrior;
-
-    [SerializeField]
-    private float m_actionCallCooldown;
 
     [SerializeField]
     private GameObject m_startButton, m_stopButton, m_restartButton;
@@ -348,24 +346,36 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator EnterNextStagePerform()
     {
-        var nextStageID = (CurStageID + 1) % AllStages.Count;
+        var nextStageID = (CurStageID + 1);
 
-        Destroy(m_stageParent.transform.GetChild(0).gameObject);
+        if (nextStageID == AllStages.Count)
+        {
+            CameraFade.instance.FadeOut();
 
-        LoadStage(nextStageID);
+            yield return new WaitForSeconds(2.0f);
 
-        yield return null;
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            Destroy(m_stageParent.transform.GetChild(0).gameObject);
+            LoadStage(nextStageID);
+            yield return null;
+        }
     }
 
     public void ReadyToEnterNextCycle()
+    {
+        CurCycle++;
+    }
+
+    public void CallMonsterToMove()
     {
         foreach (ScorpionProjectile p in m_allProjectiles)
         {
             if (p != null)
                 p.Move();
         }
-
-        CurCycle++;
     }
 
     public void AddToProjectileList(ScorpionProjectile projectile)

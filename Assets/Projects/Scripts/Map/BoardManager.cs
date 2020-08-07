@@ -46,9 +46,9 @@ public class BoardManager : MonoBehaviour
 
             switch (chess.Type)
             {
-                case ChessType.Scorpion:
-                    //根據血量判斷要不要回傳
-                    return chess;
+                //case ChessType.Scorpion:
+                //    //根據血量判斷要不要回傳
+                //    return chess;
                 case ChessType.TreasureBox:
                     if (chess.GetComponent<TreasureBox>().IsOpened == false)
                         return chess;

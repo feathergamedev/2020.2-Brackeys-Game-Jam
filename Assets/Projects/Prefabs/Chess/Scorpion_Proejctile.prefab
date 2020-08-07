@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_coordinate: {x: 0, y: 0}
-  m_moveSpeed: 2
+  m_moveSpeed: 1
   m_performer: {fileID: 8052446035732340305}
 --- !u!1 &8052446035732340305
 GameObject:
