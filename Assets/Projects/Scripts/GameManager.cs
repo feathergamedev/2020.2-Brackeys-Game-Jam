@@ -247,7 +247,7 @@ public class GameManager : MonoBehaviour
         CurStage.PeekInitState();
 
         DOTween.To(()=>m_postProcessingVolume.weight, x=>m_postProcessingVolume.weight = x, 1.0f, 0.5f);
-        DOTween.To(() =>m_BGM.pitch, x => m_BGM.pitch = x, 0.8f, 0.5f);
+        DOTween.To(() =>m_BGM.pitch, x => m_BGM.pitch = x, 0.85f, 0.5f);
 //        DOTween.To(() => m_BGM.volume, x => m_BGM.volume = x, 0.5f, 0.5f);
 
         m_eyeAnimator.SetBool("Open", true);
@@ -277,6 +277,8 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator CheckFinalAnswer()
     {
+        yield return new WaitForSeconds(0.5f);
+
         // Warrior_Goal
         var warriorGoalAchieved = (m_warrior.CurState == WarriorState.Dead && m_warrior.Coordinate == CurStage.WarriorTargetPos);
 

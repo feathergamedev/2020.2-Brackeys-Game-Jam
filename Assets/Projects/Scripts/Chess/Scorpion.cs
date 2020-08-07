@@ -63,6 +63,6 @@ public class Scorpion : Chess
 
     public override void Reset()
     {
-
+        m_lastAttackCycle = -1;
     }
 }
