@@ -42,7 +42,6 @@ public class ActionController : MonoBehaviour
 
     private void Awake()
     {
-        CurCoordinate = Vector2Int.zero;
         m_actionRecord = new List<Direction>();
         m_actionIcons = new List<Image>();
         m_allFootprints = new List<Image>();        
@@ -154,7 +153,7 @@ public class ActionController : MonoBehaviour
         m_actionIcons.Clear();
         m_actionRecord.Clear();
         m_arrowParent.transform.localPosition = new Vector3(0, 37, 0);
-        CurCoordinate = Vector2Int.zero;
+        CurCoordinate = GameManager.instance.CurStage.WarriorInitPos;
         m_actionIndex = 0;
     }
 
@@ -258,5 +257,7 @@ public class ActionController : MonoBehaviour
         UpdateCurPosIndicator(pos);
         SetCurPosIndicatorActive(true);
         EraseAllFootprint();
+
+        CurCoordinate = GameManager.instance.CurStage.WarriorInitPos;
     }
 }

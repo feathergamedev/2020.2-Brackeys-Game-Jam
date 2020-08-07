@@ -13,6 +13,7 @@ public enum WarriorState
 
 public class WarriorController : Chess
 {
+    public static WarriorController instance;
 
     public WarriorState CurState;
 
@@ -31,6 +32,8 @@ public class WarriorController : Chess
 
     private void Awake()
     {
+        instance = this;
+
         CurState = WarriorState.Move;
         m_image = GetComponent<Image>();
     }
@@ -51,6 +54,8 @@ public class WarriorController : Chess
     public void ReadyToTakeAction()
     {
         m_actionCoroutine = StartCoroutine(TakeAction());
+
+
     }
 
     public IEnumerator TakeAction()
@@ -101,6 +106,8 @@ public class WarriorController : Chess
 
                 yield return null;
             }
+
+            GameManager.instance.ReadyToEnterNextCycle();
         }
 
         GameManager.instance.ReadyToCheckAnswer();

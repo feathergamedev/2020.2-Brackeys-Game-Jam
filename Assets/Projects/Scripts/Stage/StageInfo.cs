@@ -29,11 +29,6 @@ public class StageInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-            PeekInitState();
-
-        if (Input.GetKeyUp(KeyCode.I))
-            ResumeFinalState();
     }
 
     public void Initialize()

@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3989265279494027743
-    second: InGameAssets_brown_0
+    second: Wall_TopLeft
   - first:
       213: 4980229660676610955
-    second: InGameAssets_brown_1
+    second: Wall_TopMid
   - first:
       213: 3062144912337891871
-    second: InGameAssets_brown_2
+    second: Wall_TopRight
   - first:
       213: -684690061772421781
     second: InGameAssets_brown_3
@@ -28,22 +28,22 @@ TextureImporter:
     second: InGameAssets_brown_7
   - first:
       213: 3654110274968521973
-    second: InGameAssets_brown_8
+    second: Wall_MidLeft
   - first:
       213: 6214326018603120998
-    second: InGameAssets_brown_9
+    second: Wall_Black
   - first:
       213: 6096230473670132562
-    second: InGameAssets_brown_10
+    second: Wall_MidRight
   - first:
       213: 4803777724354976780
-    second: InGameAssets_brown_11
+    second: Wall_Corner_TopRight
   - first:
       213: 7803689410329999306
     second: InGameAssets_brown_12
   - first:
       213: -4459865996133264937
-    second: InGameAssets_brown_13
+    second: Wall_Corner_TopLeft
   - first:
       213: -5870103315423790310
     second: InGameAssets_brown_14
@@ -52,13 +52,13 @@ TextureImporter:
     second: InGameAssets_brown_15
   - first:
       213: -7632932388315389996
-    second: InGameAssets_brown_16
+    second: Wall_BottomLeft
   - first:
       213: -5097984426142708328
-    second: InGameAssets_brown_17
+    second: Wall_BottomMid
   - first:
       213: 569935916346994336
-    second: InGameAssets_brown_18
+    second: Wall_ButtomRight
   - first:
       213: -4164346379244088605
     second: InGameAssets_brown_19
@@ -100,13 +100,13 @@ TextureImporter:
     second: InGameAssets_brown_31
   - first:
       213: -7480054445056677140
-    second: InGameAssets_brown_32
+    second: Brick_2
   - first:
       213: 2048164711119507256
-    second: InGameAssets_brown_33
+    second: Brick_1
   - first:
       213: 1332745324372948815
-    second: InGameAssets_brown_34
+    second: Brick_0
   - first:
       213: -4120777535662185785
     second: InGameAssets_brown_35
@@ -124,7 +124,7 @@ TextureImporter:
     second: Spikes
   - first:
       213: 8634126994335956636
-    second: InGameAssets_brown_40
+    second: Brick_3
   - first:
       213: -5135101620641166046
     second: InGameAssets_brown_41
@@ -297,7 +297,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: InGameAssets_brown_0
+      name: Wall_TopLeft
       rect:
         serializedVersion: 2
         x: 10
@@ -318,7 +318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_1
+      name: Wall_TopMid
       rect:
         serializedVersion: 2
         x: 170
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_2
+      name: Wall_TopRight
       rect:
         serializedVersion: 2
         x: 330
@@ -405,7 +405,7 @@ TextureImporter:
       name: InGameAssets_brown_5
       rect:
         serializedVersion: 2
-        x: 810
+        x: 808
         y: 1121
         width: 160
         height: 160
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_8
+      name: Wall_MidLeft
       rect:
         serializedVersion: 2
         x: 10
@@ -486,7 +486,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_9
+      name: Wall_Black
       rect:
         serializedVersion: 2
         x: 170
@@ -507,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_10
+      name: Wall_MidRight
       rect:
         serializedVersion: 2
         x: 330
@@ -528,7 +528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_11
+      name: Wall_Corner_TopRight
       rect:
         serializedVersion: 2
         x: 490
@@ -570,7 +570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_13
+      name: Wall_Corner_TopLeft
       rect:
         serializedVersion: 2
         x: 810
@@ -633,7 +633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_16
+      name: Wall_BottomLeft
       rect:
         serializedVersion: 2
         x: 10
@@ -654,7 +654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_17
+      name: Wall_BottomMid
       rect:
         serializedVersion: 2
         x: 170
@@ -675,7 +675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_18
+      name: Wall_ButtomRight
       rect:
         serializedVersion: 2
         x: 330
@@ -969,7 +969,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_32
+      name: Brick_2
       rect:
         serializedVersion: 2
         x: 10
@@ -990,7 +990,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_33
+      name: Brick_1
       rect:
         serializedVersion: 2
         x: 170
@@ -1011,7 +1011,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_34
+      name: Brick_0
       rect:
         serializedVersion: 2
         x: 330
@@ -1137,11 +1137,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: InGameAssets_brown_40
+      name: Brick_3
       rect:
         serializedVersion: 2
-        x: 10
-        y: 321
+        x: 12
+        y: 319
         width: 160
         height: 160
       alignment: 0

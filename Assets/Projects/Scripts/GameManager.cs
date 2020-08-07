@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.Rendering.PostProcessing;
 
 public enum GameState
 {
@@ -54,12 +55,23 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GoalChecker m_scorpionChecker;
 
+    [Header("回合數相關")]
+
+    public int CurCycle;
+
+    [Header("蠍子投射物")]
+
+    [SerializeField]
+    private List<ScorpionProjectile> m_allProjectiles;
+
+    [Header("Post Processing")]
+    [SerializeField]
+    private PostProcessVolume m_postProcessingVolume;
+
     private void Awake()
     {
         if (instance == null)
             instance = this;
-
-
     }
 
     // Start is called before the first frame update
@@ -86,6 +98,14 @@ public class GameManager : MonoBehaviour
 
         if (CurGameState == GameState.Edit && Input.GetKeyDown(KeyCode.R))
             ResetLevel();
+
+        if (GameManager.instance.CurGameState == GameState.Edit)
+        {
+            if (Input.GetKeyDown(KeyCode.I))
+                PeekStageInitState();
+            if (Input.GetKeyUp(KeyCode.I))
+                ResumeStageFinalState();
+        }
     }
 
     public void LevelComplete()
@@ -142,6 +162,12 @@ public class GameManager : MonoBehaviour
 
         ResumeStageFinalState();
 
+        foreach (var p in m_allProjectiles)
+            Destroy(p.gameObject);
+
+        m_allProjectiles.Clear();
+
+        CurCycle = 0;
 
         CurGameState = GameState.Edit;
     }
@@ -182,6 +208,12 @@ public class GameManager : MonoBehaviour
 
         PrepareGoalChecker();
 
+        m_allProjectiles.Clear();
+
+        CurCycle = 0;
+
+        m_postProcessingVolume.weight = 0f;
+
         CurGameState = GameState.Edit;
     }
 
@@ -193,12 +225,20 @@ public class GameManager : MonoBehaviour
 
     public void PeekStageInitState()
     {
+        if (CurGameState != GameState.Edit)
+            return;
+
         CurStage.PeekInitState();
+
+        DOTween.To(()=>m_postProcessingVolume.weight, x=>m_postProcessingVolume.weight = x, 0.5f, 0.5f);
     }
 
     public void ResumeStageFinalState()
     {
         CurStage.ResumeFinalState();
+
+        DOTween.To(() => m_postProcessingVolume.weight, x => m_postProcessingVolume.weight = x, 0.0f, 0.5f);
+
     }
 
     public void ShowStageRewindLayout()
@@ -216,7 +256,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         // Warrior_Goal
-        var warriorGoalAchieved = (m_warrior.Coordinate == CurStage.WarriorTargetPos);
+        var warriorGoalAchieved = (m_warrior.CurState == WarriorState.Dead && m_warrior.Coordinate == CurStage.WarriorTargetPos);
 
         if (warriorGoalAchieved)
             m_warriorChecker.GetChecked();
@@ -284,5 +324,25 @@ public class GameManager : MonoBehaviour
         LoadStage(nextStageID);
 
         yield return null;
+    }
+
+    public void ReadyToEnterNextCycle()
+    {
+        foreach (ScorpionProjectile p in m_allProjectiles)
+        {
+                p.Move();
+        }
+
+        CurCycle++;
+    }
+
+    public void AddToProjectileList(ScorpionProjectile projectile)
+    {
+        m_allProjectiles.Add(projectile);
+    }
+
+    public void RemoveFromProjectileList(ScorpionProjectile projectile)
+    {
+        m_allProjectiles.Remove(projectile);
     }
 }
