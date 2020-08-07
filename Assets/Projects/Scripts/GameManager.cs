@@ -64,9 +64,15 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private List<ScorpionProjectile> m_allProjectiles;
 
-    [Header("Post Processing")]
+    [Header("Rewind Mode相關")]
     [SerializeField]
     private PostProcessVolume m_postProcessingVolume;
+
+    [SerializeField]
+    private AudioSource m_BGM;
+
+    [SerializeField]
+    private Animator m_eyeAnimator;
 
     private void Awake()
     {
@@ -116,7 +122,11 @@ public class GameManager : MonoBehaviour
     public void StartRewind()
     {
         StartCoroutine(StartRewindTransition());
+
+        SoundManager.instance.PlaySound(SoundType.ClickButton);
     }
+
+
 
     private IEnumerator StartRewindTransition()
     {
@@ -139,6 +149,8 @@ public class GameManager : MonoBehaviour
 
     public void StopRewind()
     {
+        SoundManager.instance.PlaySound(SoundType.ClickButton);
+
         if (m_rewindCoroutine != null)
         {
             StopCoroutine(m_rewindCoroutine);
@@ -163,7 +175,8 @@ public class GameManager : MonoBehaviour
         ResumeStageFinalState();
 
         foreach (var p in m_allProjectiles)
-            Destroy(p.gameObject);
+            if (p != null)
+                Destroy(p.gameObject);
 
         m_allProjectiles.Clear();
 
@@ -174,6 +187,8 @@ public class GameManager : MonoBehaviour
 
     public void ResetLevel()
     {
+        SoundManager.instance.PlaySound(SoundType.ClickButton);
+
         LoadStage(CurStageID);
     }
 
@@ -213,6 +228,7 @@ public class GameManager : MonoBehaviour
         CurCycle = 0;
 
         m_postProcessingVolume.weight = 0f;
+        m_BGM.pitch = 1f;
 
         CurGameState = GameState.Edit;
     }
@@ -230,7 +246,12 @@ public class GameManager : MonoBehaviour
 
         CurStage.PeekInitState();
 
-        DOTween.To(()=>m_postProcessingVolume.weight, x=>m_postProcessingVolume.weight = x, 0.5f, 0.5f);
+        DOTween.To(()=>m_postProcessingVolume.weight, x=>m_postProcessingVolume.weight = x, 1.0f, 0.5f);
+        DOTween.To(() =>m_BGM.pitch, x => m_BGM.pitch = x, 0.8f, 0.5f);
+//        DOTween.To(() => m_BGM.volume, x => m_BGM.volume = x, 0.5f, 0.5f);
+
+        m_eyeAnimator.SetBool("Open", true);
+
     }
 
     public void ResumeStageFinalState()
@@ -238,7 +259,10 @@ public class GameManager : MonoBehaviour
         CurStage.ResumeFinalState();
 
         DOTween.To(() => m_postProcessingVolume.weight, x => m_postProcessingVolume.weight = x, 0.0f, 0.5f);
+        DOTween.To(() => m_BGM.pitch, x => m_BGM.pitch = x, 1.0f, 0.5f);
+//        DOTween.To(() => m_BGM.volume, x => m_BGM.volume = x, 0.8f, 0.5f);
 
+        m_eyeAnimator.SetBool("Open", false);
     }
 
     public void ShowStageRewindLayout()
@@ -253,15 +277,13 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator CheckFinalAnswer()
     {
-        yield return new WaitForSeconds(0.5f);
-
         // Warrior_Goal
         var warriorGoalAchieved = (m_warrior.CurState == WarriorState.Dead && m_warrior.Coordinate == CurStage.WarriorTargetPos);
 
         if (warriorGoalAchieved)
             m_warriorChecker.GetChecked();
-        else
-            m_warriorChecker.NotAchieved();
+//        else
+//            m_warriorChecker.NotAchieved();
 
         var treasureBoxGoalAchieved = true;
         if (CurStage.HaveTreasureBox)
@@ -279,8 +301,8 @@ public class GameManager : MonoBehaviour
 
             if (treasureBoxGoalAchieved)
                m_treasureBoxChecker.GetChecked();
-            else
-                m_treasureBoxChecker.NotAchieved();
+//            else
+//                m_treasureBoxChecker.NotAchieved();
         }
 
         var scorpionGoalAchieved = true;
@@ -294,19 +316,26 @@ public class GameManager : MonoBehaviour
             */
         }
 
-        yield return new WaitForSeconds(1.0f);
-
         var isCompleted = warriorGoalAchieved && treasureBoxGoalAchieved && scorpionGoalAchieved;
 
         if (isCompleted)
         {
+            yield return new WaitForSeconds(0.5f);
+
             m_levelCompletePage.SetActive(true);
             SoundManager.instance.PlaySound(SoundType.StageComplete);
-            Debug.Log("Win!");
         }
         else
         {
-            Debug.Log("Not win...");
+            yield return new WaitForSeconds(0.5f);
+
+            if (!warriorGoalAchieved)
+                m_warriorChecker.NotAchieved();
+
+            if (!treasureBoxGoalAchieved)
+                m_treasureBoxChecker.NotAchieved();
+
+            SoundManager.instance.PlaySound(SoundType.WrongAnswer);
         }
     }
 
@@ -330,6 +359,7 @@ public class GameManager : MonoBehaviour
     {
         foreach (ScorpionProjectile p in m_allProjectiles)
         {
+            if (p != null)
                 p.Move();
         }
 
