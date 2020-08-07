@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1598927496690631178
+--- !u!1 &5502696113205783673
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1598927496690631177}
-  - component: {fileID: 1598927496690631671}
-  - component: {fileID: 1598927496690631176}
+  - component: {fileID: 8598623116718596428}
+  - component: {fileID: 4304590211763243616}
+  - component: {fileID: 3020661713649926740}
   m_Layer: 5
-  m_Name: Stone
+  m_Name: FinishPoint_Deco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1598927496690631177
+--- !u!224 &8598623116718596428
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598927496690631178}
+  m_GameObject: {fileID: 5502696113205783673}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,24 +34,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 160, y: 160}
+  m_AnchoredPosition: {x: 640, y: 0}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1598927496690631671
+--- !u!222 &4304590211763243616
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598927496690631178}
+  m_GameObject: {fileID: 5502696113205783673}
   m_CullTransparentMesh: 0
---- !u!114 &1598927496690631176
+--- !u!114 &3020661713649926740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598927496690631178}
+  m_GameObject: {fileID: 5502696113205783673}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3398335637463299349, guid: eacb32a3b66194dccacbc3ed881bb854,
+  m_Sprite: {fileID: -4940086219824820375, guid: eacb32a3b66194dccacbc3ed881bb854,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0

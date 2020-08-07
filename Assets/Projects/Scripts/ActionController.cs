@@ -27,6 +27,9 @@ public class ActionController : MonoBehaviour
     [Header("步驟記錄")]
 
     [SerializeField]
+    private int m_maxActionCount;
+
+    [SerializeField]
     private Image m_arrowPrefab;
 
     [SerializeField]
@@ -99,6 +102,9 @@ public class ActionController : MonoBehaviour
 
     public void AddAction(Direction dir)
     {
+        if (m_actionRecord.Count == m_maxActionCount)
+            return;
+
         var nextCoordinate = CurCoordinate + dir.ToCoordinate();
 
         if (BoardManager.instance.IsWalkable(nextCoordinate) == false)
@@ -107,12 +113,7 @@ public class ActionController : MonoBehaviour
         CreateArrowIcon(dir);
         m_actionRecord.Add(dir);
 
-        //如果不是起點，就畫腳印
-        //TODO:把[0,0]改成動態吃每一關不同的起始座標
-//        if (CurCoordinate != Vector2Int.zero)
-//        {
-            DrawFootprint(CurCoordinate, dir);
-//        }
+        DrawFootprint(CurCoordinate, dir);
 
         CurCoordinate = nextCoordinate;
 

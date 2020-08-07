@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using DG.Tweening;
 
 public enum GameState
@@ -41,6 +42,17 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private Transform m_stageParent;
+
+    [Header("目標清單")]
+
+    [SerializeField]
+    private GoalChecker m_warriorChecker;
+
+    [SerializeField]
+    private GoalChecker m_treasureBoxChecker;
+
+    [SerializeField]
+    private GoalChecker m_scorpionChecker;
 
     private void Awake()
     {
@@ -103,18 +115,6 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         m_warrior.ReadyToTakeAction();
-        //m_rewindCoroutine = StartCoroutine(Rewind());
-    }
-
-
-    private IEnumerator Rewind()
-    {
-        yield return m_warrior.StartCoroutine("TakeAction");
-
-
-        yield return new WaitForSeconds(m_actionCallCooldown * 2);
-
-        CheckFinalAnswer();
     }
 
     public void StopRewind()
@@ -136,7 +136,12 @@ public class GameManager : MonoBehaviour
 
         BoardManager.instance.ResetAllChess();
 
+        m_warriorChecker.Reset();
+        m_treasureBoxChecker.Reset();
+        m_scorpionChecker.Reset();
+
         ResumeStageFinalState();
+
 
         CurGameState = GameState.Edit;
     }
@@ -160,6 +165,8 @@ public class GameManager : MonoBehaviour
         CurStageID = stageID;
         CurStage = Instantiate<StageInfo>(AllStages[CurStageID], Vector3.zero, Quaternion.identity, m_stageParent);
 
+        CurStage.Initialize();
+
         BoardManager.instance.BoardSetup(CurStage.m_gridParent, CurStage.m_chessParent);
 
         m_startButton.SetActive(true);
@@ -168,8 +175,20 @@ public class GameManager : MonoBehaviour
         m_warrior.Reset(CurStage.WarriorInitPos);
         m_actionController.Reset(CurStage.WarriorInitPos);
 
+        // Goal Checker
+        m_warriorChecker.Reset();
+        m_treasureBoxChecker.Reset();
+        m_scorpionChecker.Reset();
+
+        PrepareGoalChecker();
 
         CurGameState = GameState.Edit;
+    }
+
+    private void PrepareGoalChecker()
+    {
+        m_treasureBoxChecker.SetCheckerActive(CurStage.HaveTreasureBox);
+        m_scorpionChecker.SetCheckerActive(CurStage.HaveScorpion);
     }
 
     public void PeekStageInitState()
@@ -187,11 +206,59 @@ public class GameManager : MonoBehaviour
         CurStage.ShowRewindLayout();
     }
 
-    public void CheckFinalAnswer()
+    public void ReadyToCheckAnswer()
     {
-        var result = (m_warrior.Coordinate == CurStage.WarriorTargetPos);
+        StartCoroutine(CheckFinalAnswer());
+    }
 
-        if (result)
+    private IEnumerator CheckFinalAnswer()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        // Warrior_Goal
+        var warriorGoalAchieved = (m_warrior.Coordinate == CurStage.WarriorTargetPos);
+
+        if (warriorGoalAchieved)
+            m_warriorChecker.GetChecked();
+        else
+            m_warriorChecker.NotAchieved();
+
+        var treasureBoxGoalAchieved = true;
+        if (CurStage.HaveTreasureBox)
+        {
+            var allTreasureBox = BoardManager.instance.GetAllTreasureBox();
+
+            foreach(TreasureBox box in allTreasureBox)
+            {
+                if (box.IsOpened != box.ExpectedState)
+                {
+                    treasureBoxGoalAchieved = false;
+                    break;
+                }
+            }
+
+            if (treasureBoxGoalAchieved)
+               m_treasureBoxChecker.GetChecked();
+            else
+                m_treasureBoxChecker.NotAchieved();
+        }
+
+        var scorpionGoalAchieved = true;
+        if (CurStage.HaveScorpion)
+        {
+            /*
+            if ()
+                scorpionGoalAchieved.GetChecked();
+            else
+                scorpionGoalAchieved.NotAchieved();
+            */
+        }
+
+        yield return new WaitForSeconds(1.0f);
+
+        var isCompleted = warriorGoalAchieved && treasureBoxGoalAchieved && scorpionGoalAchieved;
+
+        if (isCompleted)
         {
             m_levelCompletePage.SetActive(true);
             SoundManager.instance.PlaySound(SoundType.StageComplete);

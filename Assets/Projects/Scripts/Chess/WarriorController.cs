@@ -76,7 +76,7 @@ public class WarriorController : Chess
             else
             {
                 if (m_actionController.HasNextAction() == false)
-                    yield break;
+                    break;
 
                 var nextDirecion = m_actionController.GetNextAction();
                 var nextCoordinate = Coordinate + nextDirecion.ToCoordinate();
@@ -103,9 +103,7 @@ public class WarriorController : Chess
             }
         }
 
-        yield return new WaitForSeconds(1.0f);
-
-        GameManager.instance.CheckFinalAnswer();
+        GameManager.instance.ReadyToCheckAnswer();
 
         yield return null;
     }

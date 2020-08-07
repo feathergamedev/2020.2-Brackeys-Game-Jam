@@ -8,6 +8,8 @@ public class TreasureBox : Chess
     bool IsInitiallyOpened;
     public bool IsOpened;
 
+    public bool ExpectedState;
+
     [SerializeField]
     private GameObject m_closeSprite, m_openSprite;
 

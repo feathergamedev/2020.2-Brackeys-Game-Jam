@@ -13,7 +13,6 @@ public class BoardManager : MonoBehaviour
     {
         if (instance == null)
             instance = this;
-
     }
 
     // Start is called before the first frame update
@@ -45,15 +44,12 @@ public class BoardManager : MonoBehaviour
         {
             var chess = m_allChess[coordinate];
 
-            Debug.Log(chess.gameObject.name);
-
             switch (chess.Type)
             {
                 case ChessType.Scorpion:
                     //根據血量判斷要不要回傳
                     return chess;
                 case ChessType.TreasureBox:
-                    Debug.Log("HI");
                     if (chess.GetComponent<TreasureBox>().IsOpened == false)
                         return chess;
                     else
@@ -98,6 +94,20 @@ public class BoardManager : MonoBehaviour
     public Chess GetChessAt(Vector2Int coordinate)
     {
         return m_allChess[coordinate];      
+    }
+
+    public List<TreasureBox> GetAllTreasureBox()
+    {
+        var result = new List<TreasureBox>();
+
+        foreach(KeyValuePair<Vector2Int, Chess> kvp in m_allChess)
+        {
+            var treasureBox = kvp.Value.GetComponent<TreasureBox>();
+            if (treasureBox != null)
+                result.Add(treasureBox);
+        }
+
+        return result;
     }
 
     public void BoardSetup(Transform gridTransform, Transform chessTransform)

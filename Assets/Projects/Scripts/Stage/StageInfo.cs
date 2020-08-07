@@ -18,6 +18,8 @@ public class StageInfo : MonoBehaviour
     [SerializeField]
     private CanvasGroup m_initGroup, m_finalGroup;
 
+    public bool HaveTreasureBox, HaveScorpion;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +34,12 @@ public class StageInfo : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.I))
             ResumeFinalState();
+    }
+
+    public void Initialize()
+    {
+        m_finalGroup.alpha = 1.0f;
+        m_initGroup.alpha = 0.0f;
     }
 
     public void PeekInitState()
