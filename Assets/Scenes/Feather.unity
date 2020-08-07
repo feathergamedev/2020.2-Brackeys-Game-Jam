@@ -933,7 +933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &446528041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2536,6 +2536,8 @@ MonoBehaviour:
   AllStages:
   - {fileID: 985897351789824739, guid: 17f7378d6c3d9451d985f76a8753d086, type: 3}
   - {fileID: 985897351789824739, guid: 21d9e820302fa4c8f835b0898666ea95, type: 3}
+  - {fileID: 985897351789824739, guid: 5afbea70a779c49d49896bc09598444c, type: 3}
+  - {fileID: 985897351789824739, guid: af9fb8391784848fba6f296b92ac11c0, type: 3}
   m_actionController: {fileID: 1488159286}
   m_warrior: {fileID: 1238659079}
   m_actionCallCooldown: 0.45
